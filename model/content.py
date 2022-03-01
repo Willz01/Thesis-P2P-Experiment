@@ -1,5 +1,5 @@
 from datetime import datetime
-from hashlib import blake2b
+from blake3 import blake3
 
 
 class Content:
@@ -12,10 +12,10 @@ class Content:
     @:param query - requesting query
     """
 
-    def __init__(self, content_name: str, data: [], descriptors: [], query: str, created: datetime, content_type: str):
+    def __init__(self, content_name: str, data: [], descriptors: [], query: str, content_type: str):
         self.content_name = content_name
-        self.data = data
-        h = blake2b()
+        self.data = data  # serialize
+        h = blake3()  # blake3
         h.update(data)
         self.cid = h.hexdigest()
         self.size = len(data)
@@ -23,3 +23,14 @@ class Content:
         self.query = query
         self.created = datetime.now()
         self.content_type = content_type
+
+    def __repr__(self):
+        return f"""
+         Content-name : {self.content_name},
+         Data : {self.data},
+         CID : {self.cid},
+         Descriptors : {self.descriptors},
+         Query : {self.query},
+         Content-type : {self.content_type},
+         Created : {self.created}
+         """
