@@ -1,4 +1,5 @@
-from model.content import Content
+from datetime import datetime
+from blake3 import blake3
 
 
 class Packet:
@@ -8,14 +9,23 @@ class Packet:
     @:param timestamp - datetime packet was added to network
     """
 
-    def __init__(self, author: str, c: Content, timestamp: str):
-        self.author = author
-        self.content = c  # content
-        self.timestamp = timestamp
+    def __init__(self, data: [], descriptors: [], query: str):
+        # self.author = author
+        self.data = data  # serialize
+        h = blake3()  # blake3
+        h.update(data)
+        self.cid = h.hexdigest()
+        self.timestamp = datetime.now()
+        self.descriptors = descriptors
+        self.query = query
+        self.size = len(data)
 
     def __repr__(self):
         return f""" 
-        Author  : {self.author}, 
-        Content : [{self.content}],
-        TimeStamp : {self.timestamp}
+        Size  : {self.size}, 
+        Data  : {self.data},
+        Descriptors : [{self.descriptors}],
+        Query : {self.query},
+        CID   : {self.cid},
+        Timestamp : {self.timestamp}
          """

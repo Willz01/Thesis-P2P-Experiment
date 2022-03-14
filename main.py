@@ -53,14 +53,50 @@ def handle_command(author: str) -> Packet:
 def construct_packet(command, file, author) -> Packet:
     content = Content(content_name=file, data=file.encode(), descriptors=None, query=f"{command} {file}",
                       content_type=command)
-    p = Packet(author=author, c=content, timestamp=str(datetime.now()))
+    #  p = Packet(author=author, c=content, timestamp=str(datetime.now()))
+    p = Packet(data=file.encode(), descriptors=None, query=f"{command} {file}")
     return p
 
 
 def search():
+    # get list of connected peers
+    # loop over file packets
+    # check matches
     # get peers with searched content
     # check Hash table of flags
-    # download from safest peer depending on flag variable
+    # download from the safest peer depending on flag variable
+    download(False)
+    pass
+
+
+# user command
+
+def download(kick):
+    """
+        if @param kick is True - search() is called since the file content has to be
+        search for on connected peers before been downloaded.
+
+        @:parameter kick is False - download() was called from search() following a
+        search command. Packet download is launched.
+    """
+    if kick:
+        search()
+    else:
+        temp = "Ert"
+        # download code
+    pass
+
+
+def disconnect():
+    pass
+
+
+def list_contents():
+    pass
+
+
+def get_peer_info(host):
+    return host.P
     pass
 
 
@@ -112,6 +148,7 @@ async def run(port: int, destination: str, seed: int = None) -> None:
         secret = secrets.token_bytes(32)
 
     host = new_host(key_pair=create_new_key_pair(secret))
+
     async with host.run(listen_addrs=[listen_addr]):
 
         print(f"I am {host.get_id().to_string()}")
