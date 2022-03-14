@@ -7,7 +7,7 @@ import multiaddr
 import trio
 
 from libp2p import new_host  # peer
-from libp2p.crypto.secp256k1 import create_new_key_pair
+from libp2p.crypto.secp256k1 import create_new_key_pair  # check
 from libp2p.network.stream.net_stream_interface import INetStream  # stream
 from libp2p.peer.peerinfo import info_from_p2p_addr  # peer info
 from libp2p.typing import TProtocol
@@ -16,12 +16,12 @@ from model.content import Content
 from model.packet import Packet
 
 commands = dict({
-    'search': b'\x0A',
-    'download': b'\x0B',
-    'peer-info': b'\x0C',
-    'delete': b'\x0D',
-    'disconnect': b'\x0E',
-    'list': b'\x0F'
+    'search': b'\x0A',  # search for file on network - via connected nodes
+    'download': b'\x0B',  # download file from network
+    'peer-info': b'\x0C',  # get peer-info on connected* peer: live,....
+    'delete': b'\x0D',  # check
+    'disconnect': b'\x0E',  # disconnect from a connected peer
+    'list': b'\x0F'  # list files
 })
 
 PROTOCOL_ID = TProtocol("/genZ/1.0.0")
@@ -89,11 +89,11 @@ async def read_packet(stream: INetStream) -> None:
 async def write_packet(stream: INetStream, author: str) -> None:
     # write packet on stream
     result = handle_command(author)
-    if result is 'empty':
+    if result == 'empty':
         print('invalid command')
         await stream.close()
     else:
-        await stream.write(pickle.dumps(result))
+        await stream.write(pickle.dumps(result))  # check : xor bytes? + checksum
 
 
 async def run(port: int, destination: str, seed: int = None) -> None:
