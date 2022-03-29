@@ -2,6 +2,7 @@ import argparse
 import sys
 from datetime import datetime
 import pickle
+import os
 
 import multiaddr
 import trio
@@ -12,8 +13,10 @@ from libp2p.network.stream.net_stream_interface import INetStream  # stream
 from libp2p.peer.peerinfo import info_from_p2p_addr  # peer info
 from libp2p.typing import TProtocol
 
+from utils.filehandler import exist, read_content, read_desc
 from model.content import Content
 from model.packet import Packet
+from detection.checker import check_packet
 
 commands = dict({
     'search': b'\x0A',  # search for file on network - via connected nodes
@@ -31,15 +34,19 @@ def handle_command(author: str) -> Packet:
     print("Enter command: ")
     line = input()
     stripped = line.split(" ")
+
     try:
         c = stripped[0]  # command
         f = stripped[1]  # file name
+        # print(f)
+        # print(exist(f))
+        # print(read_content(f))
 
-        if c in commands:
+        if c in commands and exist(f):
             #  print("Command   || value")
-            print(line, commands.get(c))
-            print(sys.getsizeof(commands.get(c)))
-            p = construct_packet(c, f, author)
+            # print(line, commands.get(c))
+            # print(sys.getsizeof(commands.get(c)))
+            p = construct_packet(c, read_content(f), author, f)
             return p
         else:
             print("Command not available")
@@ -50,11 +57,11 @@ def handle_command(author: str) -> Packet:
         print("Invalid input")
 
 
-def construct_packet(command, file, author) -> Packet:
-    content = Content(content_name=file, data=file.encode(), descriptors=None, query=f"{command} {file}",
+def construct_packet(command, file, author, filename) -> Packet:
+    content = Content(content_name=filename, data=file.encode(), descriptors=None, query=f"{command} {filename}",
                       content_type=command)
     #  p = Packet(author=author, c=content, timestamp=str(datetime.now()))
-    p = Packet(data=file.encode(), descriptors=None, query=f"{command} {file}")
+    p = Packet(data=file.encode(), author=author, descriptors=None, query=f"{command} {filename}", packet_name=filename)
     return p
 
 
@@ -110,12 +117,16 @@ def handle_read_packet(stream_txt) -> None:
 async def read_packet(stream: INetStream) -> None:
     # get stream
     stream_obj = await stream.read()
-    p = pickle.loads(stream_obj)
-    print("Read stream: ", repr(p))
+
     # handle_read_packet(stream_txt)
 
     # cast/get packet obj
+    p = pickle.loads(stream_obj)
+
+    print("Read stream: ", repr(p))
+
     # apply detection tech
+    print('TEST: ', check_packet(p))
     # stats logger
     # close stream
     await stream.close()
@@ -149,7 +160,7 @@ async def run(port: int, destination: str, seed: int = None) -> None:
 
     host = new_host(key_pair=create_new_key_pair(secret))
 
-    async with host.run(listen_addrs=[listen_addr]):
+    async with host.run(listen_addrs=[listen_addr]), trio.open_nursery() as nursery:
 
         print(f"I am {host.get_id().to_string()}")
 
