@@ -12,8 +12,10 @@ from libp2p.typing import TProtocol
 PROTOCOL_ID = TProtocol("/chat/1.0.0")
 MAX_READ_LEN = 2 ** 32 - 1
 
+HOST_STR = ""
 
-async def read_data(stream: INetStream) -> None:
+
+async def read_data(stream: INetStream, host: str) -> None:
     while True:
         read_bytes = await stream.read(MAX_READ_LEN)
         if read_bytes is not None:
@@ -21,7 +23,8 @@ async def read_data(stream: INetStream) -> None:
             if read_string != "\n":
                 # Green console colour: 	\x1b[32m
                 # Reset console colour: 	\x1b[0m
-                print("\x1b[32m %s\x1b[0m " % read_string, end="")
+                # print("\x1b[32m %s\x1b[0m " % read_string, end="")
+                print(read_string, host)
 
 
 async def write_data(stream: INetStream) -> None:
@@ -63,7 +66,7 @@ async def run(port: int, destination: str) -> None:
 
             nursery.start_soon(read_data, stream)
             nursery.start_soon(write_data, stream)
-            print(f"Connected to peer {info.addrs[0]}")
+            print(f"Connected to peer {info.addrs[0]}", host.get_addrs())
 
         await trio.sleep_forever()
 
