@@ -1,6 +1,6 @@
 import argparse
 import sys
-
+import os
 import multiaddr
 import trio
 
@@ -47,12 +47,16 @@ async def run(port: int, destination: str) -> None:
 
             host.set_stream_handler(PROTOCOL_ID, stream_handler)
 
+            c = f" 'python3 chat.py -p {int(port) + 1} -d /ip4/{localhost_ip}/tcp/{port}/p2p/{host.get_id().pretty()}"
             print(
                 f"Run 'python3 chat.py "
                 f"-p {int(port) + 1} "
                 f"-d /ip4/{localhost_ip}/tcp/{port}/p2p/{host.get_id().pretty()}' "
                 "on another console."
             )
+
+            os.environ['nodeCon'] = c
+            # print(os.environ['nodeCon'])
             print("Waiting for incoming connection...")
 
         else:  # its the client
