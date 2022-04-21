@@ -16,7 +16,6 @@ from libp2p.typing import TProtocol
 from utils.filehandler import exist, read_content, read_desc
 from model.content import Content
 from model.packet import Packet
-from detection.checker import check_packet
 
 commands = dict({
     'search': b'\x0A',  # search for file on network - via connected nodes
@@ -193,8 +192,8 @@ async def run(port: int, destination: str, seed: int = None) -> None:
 
 def main() -> None:
     description = """
-    Mini network setup.'python ./chat -p <PORT>', where <PORT> is the port number.
-    Then, run another host with 'python ./chat -p <ANOTHER_PORT> -d <DESTINATION>' to connect with this.
+    Mini network setup.'python ./chatSys -p <PORT>', where <PORT> is the port number.
+    Then, run another host with 'python ./chatSys -p <ANOTHER_PORT> -d <DESTINATION>' to connect with this.
     """
     example_maddr = (
         "/ip4/127.0.0.1/tcp/8000/p2p/QmQn4SwGkDZKkUEpBRBvTmheQycxAHJUNmVEnjA2v1qe8Q"

@@ -9,13 +9,13 @@ from libp2p.network.stream.net_stream_interface import INetStream
 from libp2p.peer.peerinfo import info_from_p2p_addr
 from libp2p.typing import TProtocol
 
-PROTOCOL_ID = TProtocol("/chat/1.0.0")
+PROTOCOL_ID = TProtocol("/chatSys/1.0.0")
 MAX_READ_LEN = 2 ** 32 - 1
 
 HOST_STR = ""
 
 
-async def read_data(stream: INetStream, host: str) -> None:
+async def read_data(stream: INetStream) -> None:
     while True:
         read_bytes = await stream.read(MAX_READ_LEN)
         if read_bytes is not None:
@@ -24,7 +24,7 @@ async def read_data(stream: INetStream, host: str) -> None:
                 # Green console colour: 	\x1b[32m
                 # Reset console colour: 	\x1b[0m
                 # print("\x1b[32m %s\x1b[0m " % read_string, end="")
-                print(read_string, host)
+                print(read_string)
 
 
 async def write_data(stream: INetStream) -> None:
@@ -73,9 +73,9 @@ async def run(port: int, destination: str) -> None:
 
 def main() -> None:
     description = """
-    This program demonstrates a simple p2p chat application using libp2p.
-    To use it, first run 'python ./chat -p <PORT>', where <PORT> is the port number.
-    Then, run another host with 'python ./chat -p <ANOTHER_PORT> -d <DESTINATION>',
+    This program demonstrates a simple p2p chatSys application using libp2p.
+    To use it, first run 'python ./chatSys -p <PORT>', where <PORT> is the port number.
+    Then, run another host with 'python ./chatSys -p <ANOTHER_PORT> -d <DESTINATION>',
     where <DESTINATION> is the multiaddress of the previous listener host.
     """
     example_maddr = (

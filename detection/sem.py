@@ -1,3 +1,5 @@
+import time
+
 import pandas as pd
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
@@ -8,6 +10,8 @@ from sklearn import svm
 from sklearn.metrics import confusion_matrix
 
 # https://towardsdatascience.com/spam-or-ham-introduction-to-natural-language-processing-part-2-a0093185aebd
+from logger.log import log
+
 data = pd.read_csv("../spam.csv", encoding="latin-1")
 data = data[['v1', 'v2']]
 data = data.rename(columns={'v1': 'label', 'v2': 'text'})
@@ -70,7 +74,7 @@ vectorizer = TfidfVectorizer()
 X_train = vectorizer.fit_transform(X_train)
 
 # training the classifier
-svm = svm.SVC(C=1000)
+svm = svm.SVC(C=1000)  # why
 svm.fit(X_train, y_train)
 
 # testing against testing set
@@ -81,11 +85,21 @@ print(confusion_matrix(y_test, y_pred))
 
 # test against new messages
 def pred(msg):
+    plainText = msg
+    start = time.time_ns() // 1_000_000
+    print(start)
     msg = vectorizer.transform([msg])
     prediction = svm.predict(msg)
+
+    end = time.time_ns() // 1_000_000
+    print(end)
+    runTime = end - start
+    # SA - Semantic analysis
+    # msg, semantic analysis, prediction[0], runTime
+    log(plainText, "SA", prediction[0], runTime)
     return prediction[0]
 
 
 # Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...
 print(pred(
-    "My name is wills, I am an engineer"))
+    "Hey guys!"))
