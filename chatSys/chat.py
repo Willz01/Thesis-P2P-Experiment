@@ -9,6 +9,8 @@ from libp2p.network.stream.net_stream_interface import INetStream
 from libp2p.peer.peerinfo import info_from_p2p_addr
 from libp2p.typing import TProtocol
 
+from chatSys.sem import pred
+
 PROTOCOL_ID = TProtocol("/chatSys/1.0.0")
 MAX_READ_LEN = 2 ** 32 - 1
 
@@ -21,10 +23,8 @@ async def read_data(stream: INetStream) -> None:
         if read_bytes is not None:
             read_string = read_bytes.decode()
             if read_string != "\n":
-                # Green console colour: 	\x1b[32m
-                # Reset console colour: 	\x1b[0m
-                # print("\x1b[32m %s\x1b[0m " % read_string, end="")
                 print(read_string)
+                pred(read_string)
 
 
 async def write_data(stream: INetStream) -> None:
