@@ -9,7 +9,7 @@ from libp2p.network.stream.net_stream_interface import INetStream
 from libp2p.peer.peerinfo import info_from_p2p_addr
 from libp2p.typing import TProtocol
 
-from chatSys.sem import pred
+from detection.sem import pred
 
 PROTOCOL_ID = TProtocol("/chatSys/1.0.0")
 MAX_READ_LEN = 2 ** 32 - 1
