@@ -2,7 +2,7 @@ from langdetect import detect, detect_langs, DetectorFactory
 
 
 # for same result on short or ambiguous text
-from logger.log import log
+from log import log
 
 DetectorFactory.seed = 0
 
@@ -32,6 +32,3 @@ def getlang(msg) -> None:
 def both(msg) -> None:
     lang_probability(msg)
     getlang(msg)
-
-
-print(getlang("chelsea"))

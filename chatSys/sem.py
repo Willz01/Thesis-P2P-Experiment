@@ -10,7 +10,7 @@ from sklearn import svm
 from sklearn.metrics import confusion_matrix
 
 # https://towardsdatascience.com/spam-or-ham-introduction-to-natural-language-processing-part-2-a0093185aebd
-from logger.log import log
+from log import log
 
 data = pd.read_csv("../spam.csv", encoding="latin-1")
 data = data[['v1', 'v2']]
@@ -80,26 +80,21 @@ svm.fit(X_train, y_train)
 # testing against testing set
 X_test = vectorizer.transform(X_test)
 y_pred = svm.predict(X_test)
-print(confusion_matrix(y_test, y_pred))
+# print(confusion_matrix(y_test, y_pred))
 
 
 # test against new messages
 def pred(msg):
     plainText = msg
     start = time.time_ns() // 1_000_000
-    print(start)
+    # print(start)
     msg = vectorizer.transform([msg])
     prediction = svm.predict(msg)
-
     end = time.time_ns() // 1_000_000
-    print(end)
+    # print(end)
     runTime = end - start
     # SA - Semantic analysis
     # msg, semantic analysis, prediction[0], runTime
     log(plainText, "SA", prediction[0], runTime)
     return prediction[0]
 
-
-# Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...
-print(pred(
-    "Hey guys!"))
