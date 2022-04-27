@@ -4,8 +4,11 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity, cosine_distances
 import similarity
 
-
 # https://pypi.org/project/strsim/
+
+"""
+    Get random file name to simulate false descriptor text
+"""
 
 
 def get_index() -> str:
@@ -18,6 +21,13 @@ def get_index() -> str:
             if index == count:
                 print(line)
                 return line.strip()
+
+
+"""
+    f_name : split request command read from node and get requested file name
+    index_f_name : random file name gotten from save descriptors text
+    Compute and print, and return computed Similarity.
+"""
 
 
 def compute_sim(read_msg):
