@@ -2,16 +2,13 @@ import random
 
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity, cosine_distances
-
-A = np.array([10, 3])
-B = np.array([8, 7])
-result = cosine_similarity(A.reshape(1, -1), B.reshape(1, -1))
+import similarity
 
 
-# print(result)
+# https://pypi.org/project/strsim/
 
-def get_index(read_msg) -> str:
-    fname = read_msg.split(" ")[1]
+
+def get_index() -> str:
     index = random.randint(1, 10)
     with open("descriptors.txt", "r") as f:
         lines = f.readlines()
@@ -21,3 +18,14 @@ def get_index(read_msg) -> str:
             if index == count:
                 print(line)
                 return line.strip()
+
+
+def compute_sim(read_msg):
+    f_name = read_msg.split(" ")[1]  # get name ('request , ...txt')
+    index_f_name = get_index()  # get random file name index
+    s0 = index_f_name
+    s1 = f_name
+    print(s0, s1, similarity.get_similarity(s0, s1))
+
+
+compute_sim("request drake.txt")
