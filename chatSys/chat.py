@@ -9,8 +9,8 @@ from libp2p.network.stream.net_stream_interface import INetStream
 from libp2p.peer.peerinfo import info_from_p2p_addr
 from libp2p.typing import TProtocol
 
-from cosine import get_index
-from engcheck import both
+from cosine import get_index, compute_sim
+from engcheck import score_lang
 from sem import pred
 
 PROTOCOL_ID = TProtocol("/chatSys/1.0.0")
@@ -26,12 +26,11 @@ async def read_data(stream: INetStream) -> None:
             read_string = read_bytes.decode()
             if read_string != "\n":
                 if read_string.split(" ")[0] == "request":
-                    print(read_string)
-                    print(get_index(read_string))
+                    compute_sim(read_string)
                 else:
                     print(read_string)
                     pred(read_string)  # semantic analysis
-                    both(read_string)  # English scoring
+                    score_lang(read_string)  # English scoring
 
 
 async def write_data(stream: INetStream) -> None:

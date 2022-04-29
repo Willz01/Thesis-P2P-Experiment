@@ -3,8 +3,10 @@ import random
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity, cosine_distances
 import similarity
+import time
 
 # https://pypi.org/project/strsim/
+from log import log
 
 """
     Get random file name to simulate false descriptor text
@@ -35,7 +37,11 @@ def compute_sim(read_msg):
     index_f_name = get_index()  # get random file name index
     s0 = index_f_name
     s1 = f_name
-    print(s0, s1, similarity.get_similarity(s0, s1))
+    start = time.time_ns() // 1_000_000
+    cos_sim = similarity.get_similarity(s0, s1)
+    runTime = (time.time_ns() // 1_000_000) - start
+    print(s0, s1, cos_sim)
+    log(f'${s1}=?${s0}', "C-SIM", cos_sim, runTime)
 
 
 compute_sim("request drake.txt")

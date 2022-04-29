@@ -29,6 +29,6 @@ def getlang(msg) -> None:
     log(msg, "GL", result, 0)
 
 
-def both(msg) -> None:
+def score_lang(msg) -> None:
     lang_probability(msg)
     getlang(msg)
