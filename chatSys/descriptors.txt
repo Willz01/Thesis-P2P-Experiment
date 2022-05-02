@@ -8,3 +8,15 @@ recipe.txt
 pappar.txt
 romdon.txt
 potter.txt
+counter.rpp
+oneCraze.cpp
+roman.txt
+dogger.txt
+musicCat.txt
+runner.java
+scrapper.cdn
+kanye.txt
+python.py
+background.cpp
+shaking.kt
+cooker.ran

@@ -86,11 +86,11 @@ y_pred = svm.predict(X_test)
 # test against new messages
 def pred(msg):
     plainText = msg
-    start = time.time_ns() // 1_000_000
+    start = time.time_ns() / 1_000_000
     # print(start)
     msg = vectorizer.transform([msg])
     prediction = svm.predict(msg)
-    end = time.time_ns() // 1_000_000
+    end = time.time_ns() / 1_000_000
     # print(end)
     runTime = end - start
     # SA - Semantic analysis
