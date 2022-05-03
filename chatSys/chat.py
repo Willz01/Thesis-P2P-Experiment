@@ -14,7 +14,7 @@ from engcheck import score_lang
 from sem import pred
 
 PROTOCOL_ID = TProtocol("/chatSys/1.0.0")
-MAX_READ_LEN = 2 ** 32 - 1
+MAX_READ_LEN = 32 ** 2
 
 HOST_STR = ""
 
