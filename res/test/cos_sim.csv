@@ -1,0 +1,201 @@
+message	method	score	actual	runtime(ns)
+"$recipe.txt
+=?$aman.txt"	C-SIM	0.6212121212121212	C-SIM	0.177001953125
+"$potter.txt
+=?$romdon.txt"	C-SIM	0.5181818181818182	C-SIM	0.0458984375
+"$pappar.txt
+=?$crossingSong.mp3"	C-SIM	0.4356060606060606	C-SIM	0.049072265625
+"$drake.txt
+=?$recipe.txt"	C-SIM	0.7333333333333334	C-SIM	0.03515625
+"$drake.txt
+=?$recipe.txt"	C-SIM	0.7333333333333334	C-SIM	0.02880859375
+"$musicTest.mp4
+=?$aman.txt"	C-SIM	0.41865079365079366	C-SIM	0.074951171875
+"$potter.txt
+=?$countme.mp3"	C-SIM	0.5757575757575758	C-SIM	0.031005859375
+"$drake.txt
+=?$animalHouse.txt"	C-SIM	0.6666666666666666	C-SIM	0.050048828125
+"$crossingSong.mp3
+=?$drake.txt"	C-SIM	0.44662309368191727	C-SIM	0.034912109375
+"$countme.mp3
+=?$aman.txt"	C-SIM	0.4444444444444444	C-SIM	0.03515625
+"$drake.txt
+=?$potter.txt"	C-SIM	0.6222222222222222	C-SIM	0.027099609375
+"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.02587890625
+"$drake.txt
+=?$aman.txt"	C-SIM	0.7083333333333334	C-SIM	0.032958984375
+"$potter.txt
+=?$romdon.txt"	C-SIM	0.5181818181818182	C-SIM	0.072021484375
+"$pappar.txt
+=?$romdon.txt"	C-SIM	0.5878787878787879	C-SIM	0.0400390625
+"$potter.txt
+=?$animalHouse.txt"	C-SIM	0.6484848484848484	C-SIM	0.075927734375
+"$recipe.txt
+=?$animalHouse.txt"	C-SIM	0.6484848484848484	C-SIM	0.10595703125
+"$countme.mp3
+=?$aman.txt"	C-SIM	0.4444444444444444	C-SIM	0.031982421875
+"$musicTest.mp4
+=?$aman.txt"	C-SIM	0.41865079365079366	C-SIM	0.0439453125
+"$recipe.txt
+=?$musicTest.mp4"	C-SIM	0.47972027972027975	C-SIM	0.06103515625
+"$drake.txt
+=?$countme.mp3"	C-SIM	0.41313131313131307	C-SIM	0.0419921875
+"$musicTest.mp4
+=?$recipe.txt"	C-SIM	0.48571428571428577	C-SIM	0.0400390625
+"$countme.mp3
+=?$potter.txt"	C-SIM	0.5777777777777778	C-SIM	0.049072265625
+"$pappar.txt
+=?$pappar.txt"	C-SIM	0.9818181818181818	C-SIM	0.0478515625
+"$musicTest.mp4
+=?$recipe.txt"	C-SIM	0.48571428571428577	C-SIM	0.0419921875
+"$romdon.txt
+=?$romdon.txt"	C-SIM	0.9818181818181818	C-SIM	0.0380859375
+"$potter.txt
+=?$drake.txt"	C-SIM	0.6262626262626262	C-SIM	0.03515625
+"$musicTest.mp4
+=?$drake.txt"	C-SIM	0.4047619047619047	C-SIM	0.0361328125
+"$crossingSong.mp3
+=?$aman.txt"	C-SIM	0.3946078431372549	C-SIM	0.0400390625
+"$animalHouse.txt
+=?$musicTest.mp4"	C-SIM	0.5157967032967034	C-SIM	0.0390625
+"$musicTest.mp4
+=?$crossingSong.mp3"	C-SIM	0.5505952380952381	C-SIM	0.0400390625
+"$countme.mp3
+=?$pappar.txt"	C-SIM	0.2888888888888889	C-SIM	0.0390625
+"$animalHouse.txt
+=?$recipe.txt"	C-SIM	0.6583333333333333	C-SIM	0.034912109375
+"$musicTest.mp4
+=?$recipe.txt"	C-SIM	0.48571428571428577	C-SIM	0.037109375
+"$romdon.txt
+=?$recipe.txt"	C-SIM	0.6515151515151515	C-SIM	0.036865234375
+"$musicTest.mp4
+=?$aman.txt"	C-SIM	0.41865079365079366	C-SIM	0.0380859375
+"$aman.txt
+=?$pappar.txt"	C-SIM	0.7555555555555555	C-SIM	0.037109375
+"$drake.txt
+=?$aman.txt"	C-SIM	0.7083333333333334	C-SIM	0.031982421875
+"$crossingSong.mp3
+=?$aman.txt"	C-SIM	0.3946078431372549	C-SIM	0.02587890625
+"$recipe.txt
+=?$animalHouse.txt"	C-SIM	0.6484848484848484	C-SIM	0.0390625
+"$musicTest.mp4
+=?$musicTest.mp4"	C-SIM	0.9857142857142858	C-SIM	0.0361328125
+"$aman.txt
+=?$aman.txt"	C-SIM	0.9777777777777777	C-SIM	0.037841796875
+"$romdon.txt
+=?$potter.txt"	C-SIM	0.5181818181818182	C-SIM	0.035888671875
+"$pappar.txt
+=?$crossingSong.mp3"	C-SIM	0.4356060606060606	C-SIM	0.02197265625
+"$potter.txt
+=?$potter.txt"	C-SIM	0.9818181818181818	C-SIM	0.02197265625
+"$animalHouse.txt
+=?$crossingSong.mp3"	C-SIM	0.4083333333333334	C-SIM	0.02685546875
+"$crossingSong.mp3
+=?$pappar.txt"	C-SIM	0.4392156862745098	C-SIM	0.02197265625
+"$drake.txt
+=?$drake.txt"	C-SIM	0.98	C-SIM	0.02001953125
+"$aman.txt
+=?$recipe.txt"	C-SIM	0.6148148148148148	C-SIM	0.02197265625
+"$aman.txt
+=?$potter.txt"	C-SIM	0.5314814814814816	C-SIM	0.031982421875
+"$musicTest.mp4
+=?$pappar.txt"	C-SIM	0.28095238095238095	C-SIM	0.0400390625
+"$recipe.txt
+=?$recipe.txt"	C-SIM	0.9818181818181818	C-SIM	0.034912109375
+"$aman.txt
+=?$crossingSong.mp3"	C-SIM	0.3912037037037037	C-SIM	0.055908203125
+"$musicTest.mp4
+=?$crossingSong.mp3"	C-SIM	0.5505952380952381	C-SIM	0.0390625
+"$aman.txt
+=?$animalHouse.txt"	C-SIM	0.562962962962963	C-SIM	0.0380859375
+"$pappar.txt
+=?$pappar.txt"	C-SIM	0.9818181818181818	C-SIM	0.06103515625
+"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.044921875
+"$recipe.txt
+=?$countme.mp3"	C-SIM	0.49242424242424243	C-SIM	0.0380859375
+"$potter.txt
+=?$potter.txt"	C-SIM	0.9818181818181818	C-SIM	0.031005859375
+"$countme.mp3
+=?$potter.txt"	C-SIM	0.5777777777777778	C-SIM	0.02783203125
+"$animalHouse.txt
+=?$crossingSong.mp3"	C-SIM	0.4083333333333334	C-SIM	0.031005859375
+"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.031982421875
+"$animalHouse.txt
+=?$musicTest.mp4"	C-SIM	0.5157967032967034	C-SIM	0.02587890625
+"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.02392578125
+"$countme.mp3
+=?$crossingSong.mp3"	C-SIM	0.6736111111111112	C-SIM	0.031005859375
+"$countme.mp3
+=?$potter.txt"	C-SIM	0.5777777777777778	C-SIM	0.030029296875
+"$romdon.txt
+=?$recipe.txt"	C-SIM	0.6515151515151515	C-SIM	0.02490234375
+"$animalHouse.txt
+=?$aman.txt"	C-SIM	0.8125	C-SIM	0.02685546875
+"$animalHouse.txt
+=?$animalHouse.txt"	C-SIM	0.9874999999999999	C-SIM	0.029052734375
+"$crossingSong.mp3
+=?$drake.txt"	C-SIM	0.44662309368191727	C-SIM	0.02392578125
+"$aman.txt
+=?$recipe.txt"	C-SIM	0.6148148148148148	C-SIM	0.02294921875
+"$recipe.txt
+=?$romdon.txt"	C-SIM	0.6515151515151515	C-SIM	0.02294921875
+"$romdon.txt
+=?$pappar.txt"	C-SIM	0.5878787878787879	C-SIM	0.030029296875
+"$drake.txt
+=?$recipe.txt"	C-SIM	0.7333333333333334	C-SIM	0.02197265625
+"$aman.txt
+=?$aman.txt"	C-SIM	0.9777777777777777	C-SIM	0.02001953125
+"$romdon.txt
+=?$countme.mp3"	C-SIM	0.503030303030303	C-SIM	0.036865234375
+"$potter.txt
+=?$pappar.txt"	C-SIM	0.604040404040404	C-SIM	0.034912109375
+"$drake.txt
+=?$drake.txt"	C-SIM	0.98	C-SIM	0.026123046875
+"$potter.txt
+=?$crossingSong.mp3"	C-SIM	0.37563131313131315	C-SIM	0.034912109375
+"$musicTest.mp4
+=?$aman.txt"	C-SIM	0.41865079365079366	C-SIM	0.030029296875
+"$aman.txt
+=?$drake.txt"	C-SIM	0.7037037037037037	C-SIM	0.043212890625
+"$countme.mp3
+=?$animalHouse.txt"	C-SIM	0.5222222222222223	C-SIM	0.0439453125
+"$romdon.txt
+=?$aman.txt"	C-SIM	0.7651515151515151	C-SIM	0.031005859375
+"$drake.txt
+=?$potter.txt"	C-SIM	0.6222222222222222	C-SIM	0.06884765625
+"$romdon.txt
+=?$potter.txt"	C-SIM	0.5181818181818182	C-SIM	0.0400390625
+"$crossingSong.mp3
+=?$pappar.txt"	C-SIM	0.4392156862745098	C-SIM	0.036865234375
+"$crossingSong.mp3
+=?$crossingSong.mp3"	C-SIM	0.9882352941176471	C-SIM	0.0322265625
+"$musicTest.mp4
+=?$countme.mp3"	C-SIM	0.6829004329004329	C-SIM	0.02197265625
+"$potter.txt
+=?$recipe.txt"	C-SIM	0.5484848484848485	C-SIM	0.028076171875
+"$musicTest.mp4
+=?$recipe.txt"	C-SIM	0.48571428571428577	C-SIM	0.037109375
+"$crossingSong.mp3
+=?$aman.txt"	C-SIM	0.3946078431372549	C-SIM	0.027099609375
+"$crossingSong.mp3
+=?$animalHouse.txt"	C-SIM	0.40915032679738567	C-SIM	0.02099609375
+"$drake.txt
+=?$pappar.txt"	C-SIM	0.6777777777777777	C-SIM	0.02587890625
+"$romdon.txt
+=?$musicTest.mp4"	C-SIM	0.3900543900543901	C-SIM	0.02001953125
+"$musicTest.mp4
+=?$recipe.txt"	C-SIM	0.48571428571428577	C-SIM	0.0390625
+"$crossingSong.mp3
+=?$countme.mp3"	C-SIM	0.6827094474153297	C-SIM	0.02001953125
+"$aman.txt
+=?$romdon.txt"	C-SIM	0.7555555555555555	C-SIM	0.02197265625
+"$musicTest.mp4
+=?$recipe.txt"	C-SIM	0.48571428571428577	C-SIM	0.02783203125
+"$crossingSong.mp3
+=?$countme.mp3"	C-SIM	0.6827094474153297	C-SIM	0.033935546875
+"$musicTest.mp4
+=?$aman.txt"	C-SIM	0.41865079365079366	C-SIM	0.046142578125

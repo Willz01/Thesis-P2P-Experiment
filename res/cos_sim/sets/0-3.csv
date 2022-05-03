@@ -1,0 +1,5 @@
+	message	method	score	actual	runtime(ns)	range
+31	"$countme.mp3
+=?$pappar.txt"	C-SIM	0.2888888888888889	C-SIM	0.0390625	<=.3
+50	"$musicTest.mp4
+=?$pappar.txt"	C-SIM	0.2809523809523809	C-SIM	0.0400390625	<=.3

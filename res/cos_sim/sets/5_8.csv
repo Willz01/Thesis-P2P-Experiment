@@ -1,0 +1,105 @@
+	message	method	score	actual	runtime(ns)	range
+0	"$recipe.txt
+=?$aman.txt"	C-SIM	0.6212121212121212	C-SIM	0.177001953125	<=.8
+1	"$potter.txt
+=?$romdon.txt"	C-SIM	0.5181818181818182	C-SIM	0.0458984375	<=.8
+3	"$drake.txt
+=?$recipe.txt"	C-SIM	0.7333333333333334	C-SIM	0.03515625	<=.8
+4	"$drake.txt
+=?$recipe.txt"	C-SIM	0.7333333333333334	C-SIM	0.02880859375	<=.8
+6	"$potter.txt
+=?$countme.mp3"	C-SIM	0.5757575757575758	C-SIM	0.031005859375	<=.8
+7	"$drake.txt
+=?$animalHouse.txt"	C-SIM	0.6666666666666666	C-SIM	0.050048828125	<=.8
+10	"$drake.txt
+=?$potter.txt"	C-SIM	0.6222222222222222	C-SIM	0.027099609375	<=.8
+11	"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.02587890625	<=.8
+12	"$drake.txt
+=?$aman.txt"	C-SIM	0.7083333333333334	C-SIM	0.032958984375	<=.8
+13	"$potter.txt
+=?$romdon.txt"	C-SIM	0.5181818181818182	C-SIM	0.072021484375	<=.8
+14	"$pappar.txt
+=?$romdon.txt"	C-SIM	0.5878787878787879	C-SIM	0.0400390625	<=.8
+15	"$potter.txt
+=?$animalHouse.txt"	C-SIM	0.6484848484848484	C-SIM	0.075927734375	<=.8
+16	"$recipe.txt
+=?$animalHouse.txt"	C-SIM	0.6484848484848484	C-SIM	0.10595703125	<=.8
+22	"$countme.mp3
+=?$potter.txt"	C-SIM	0.5777777777777778	C-SIM	0.049072265625	<=.8
+26	"$potter.txt
+=?$drake.txt"	C-SIM	0.6262626262626262	C-SIM	0.03515625	<=.8
+29	"$animalHouse.txt
+=?$musicTest.mp4"	C-SIM	0.5157967032967034	C-SIM	0.0390625	<=.8
+30	"$musicTest.mp4
+=?$crossingSong.mp3"	C-SIM	0.5505952380952381	C-SIM	0.0400390625	<=.8
+32	"$animalHouse.txt
+=?$recipe.txt"	C-SIM	0.6583333333333333	C-SIM	0.034912109375	<=.8
+34	"$romdon.txt
+=?$recipe.txt"	C-SIM	0.6515151515151515	C-SIM	0.036865234375	<=.8
+36	"$aman.txt
+=?$pappar.txt"	C-SIM	0.7555555555555555	C-SIM	0.037109375	<=.8
+37	"$drake.txt
+=?$aman.txt"	C-SIM	0.7083333333333334	C-SIM	0.031982421875	<=.8
+39	"$recipe.txt
+=?$animalHouse.txt"	C-SIM	0.6484848484848484	C-SIM	0.0390625	<=.8
+42	"$romdon.txt
+=?$potter.txt"	C-SIM	0.5181818181818182	C-SIM	0.035888671875	<=.8
+48	"$aman.txt
+=?$recipe.txt"	C-SIM	0.6148148148148148	C-SIM	0.02197265625	<=.8
+49	"$aman.txt
+=?$potter.txt"	C-SIM	0.5314814814814816	C-SIM	0.031982421875	<=.8
+53	"$musicTest.mp4
+=?$crossingSong.mp3"	C-SIM	0.5505952380952381	C-SIM	0.0390625	<=.8
+54	"$aman.txt
+=?$animalHouse.txt"	C-SIM	0.562962962962963	C-SIM	0.0380859375	<=.8
+56	"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.044921875	<=.8
+59	"$countme.mp3
+=?$potter.txt"	C-SIM	0.5777777777777778	C-SIM	0.02783203125	<=.8
+61	"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.031982421875	<=.8
+62	"$animalHouse.txt
+=?$musicTest.mp4"	C-SIM	0.5157967032967034	C-SIM	0.02587890625	<=.8
+63	"$potter.txt
+=?$aman.txt"	C-SIM	0.537878787878788	C-SIM	0.02392578125	<=.8
+64	"$countme.mp3
+=?$crossingSong.mp3"	C-SIM	0.6736111111111112	C-SIM	0.031005859375	<=.8
+65	"$countme.mp3
+=?$potter.txt"	C-SIM	0.5777777777777778	C-SIM	0.030029296875	<=.8
+66	"$romdon.txt
+=?$recipe.txt"	C-SIM	0.6515151515151515	C-SIM	0.02490234375	<=.8
+70	"$aman.txt
+=?$recipe.txt"	C-SIM	0.6148148148148148	C-SIM	0.02294921875	<=.8
+71	"$recipe.txt
+=?$romdon.txt"	C-SIM	0.6515151515151515	C-SIM	0.02294921875	<=.8
+72	"$romdon.txt
+=?$pappar.txt"	C-SIM	0.5878787878787879	C-SIM	0.030029296875	<=.8
+73	"$drake.txt
+=?$recipe.txt"	C-SIM	0.7333333333333334	C-SIM	0.02197265625	<=.8
+75	"$romdon.txt
+=?$countme.mp3"	C-SIM	0.503030303030303	C-SIM	0.036865234375	<=.8
+76	"$potter.txt
+=?$pappar.txt"	C-SIM	0.604040404040404	C-SIM	0.034912109375	<=.8
+80	"$aman.txt
+=?$drake.txt"	C-SIM	0.7037037037037037	C-SIM	0.043212890625	<=.8
+81	"$countme.mp3
+=?$animalHouse.txt"	C-SIM	0.5222222222222223	C-SIM	0.0439453125	<=.8
+82	"$romdon.txt
+=?$aman.txt"	C-SIM	0.7651515151515151	C-SIM	0.031005859375	<=.8
+83	"$drake.txt
+=?$potter.txt"	C-SIM	0.6222222222222222	C-SIM	0.06884765625	<=.8
+84	"$romdon.txt
+=?$potter.txt"	C-SIM	0.5181818181818182	C-SIM	0.0400390625	<=.8
+87	"$musicTest.mp4
+=?$countme.mp3"	C-SIM	0.6829004329004329	C-SIM	0.02197265625	<=.8
+88	"$potter.txt
+=?$recipe.txt"	C-SIM	0.5484848484848485	C-SIM	0.028076171875	<=.8
+92	"$drake.txt
+=?$pappar.txt"	C-SIM	0.6777777777777777	C-SIM	0.02587890625	<=.8
+95	"$crossingSong.mp3
+=?$countme.mp3"	C-SIM	0.6827094474153297	C-SIM	0.02001953125	<=.8
+96	"$aman.txt
+=?$romdon.txt"	C-SIM	0.7555555555555555	C-SIM	0.02197265625	<=.8
+98	"$crossingSong.mp3
+=?$countme.mp3"	C-SIM	0.6827094474153297	C-SIM	0.033935546875	<=.8
