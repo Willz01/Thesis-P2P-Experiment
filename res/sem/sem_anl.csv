@@ -101,3 +101,385 @@ message	method	score	actual	runtime(ns)
 "	SA	ham	ham	2.298095703125
 "Hi, can i please get a  &lt;#&gt;  dollar loan from you. I.ll pay you back by mid february. Pls.
 "	SA	ham	ham	2.843017578125
+"343434
+"	SA	ham	spam/ham	4.5859375
+"f
+"	SA	ham	spam/ham	2.904052734375
+"f
+"	SA	ham	spam/ham	5.126953125
+"£££
+"	SA	ham	spam/ham	5.863037109375
+"---
+"	SA	ham	spam/ham	14.095947265625
+"ssss
+"	SA	ham	spam/ham	3.43994140625
+"ssssss
+"	SA	ham	spam/ham	3.606201171875
+"sssssss
+"	SA	ham	spam/ham	3.653076171875
+"ssss
+"	SA	ham	spam/ham	4.129150390625
+"xxxxx
+"	SA	ham	spam/ham	5.364013671875
+"sssss
+"	SA	ham	spam/ham	2.884033203125
+"ssss
+"	SA	ham	spam/ham	3.76318359375
+"111
+"	SA	ham	spam/ham	2.7099609375
+"dfdf
+"	SA	ham	spam/ham	3.40185546875
+"dfdfdfdf
+"	SA	ham	spam/ham	3.010009765625
+"dfdfdsds
+"	SA	ham	spam/ham	4.87109375
+"dfdfdf
+"	SA	ham	spam/ham	2.31591796875
+"-
+"	SA	ham	spam/ham	3.37109375
+"efefef-
+"	SA	ham	spam/ham	4.053955078125
+"--efef-
+"	SA	ham	spam/ham	3.6279296875
+"efef---
+"	SA	ham	spam/ham	3.759033203125
+"efefef-
+"	SA	ham	spam/ham	2.93603515625
+"---
+"	SA	ham	spam/ham	2.451171875
+"sdsdsd
+"	SA	ham	spam/ham	2.941162109375
+"sdsdsss
+"	SA	ham	spam/ham	2.410888671875
+"dsdsdsd
+"	SA	ham	spam/ham	3.30615234375
+"----
+"	SA	ham	spam/ham	2.2529296875
+"dfdf
+"	SA	ham	spam/ham	3.757080078125
+"ddfdf
+"	SA	ham	spam/ham	2.4599609375
+"--
+"	SA	ham	spam/ham	2.93212890625
+"------
+"	SA	ham	spam/ham	3.010986328125
+"-dddd
+"	SA	ham	spam/ham	3.14501953125
+"asdsdsd
+"	SA	ham	spam/ham	2.922119140625
+"sdsd---
+"	SA	ham	spam/ham	2.977783203125
+"sdsdsdsd-
+"	SA	ham	spam/ham	3.568115234375
+"sdsdsds---
+"	SA	ham	spam/ham	3.912109375
+"sdsdsdjsndsk-
+"	SA	ham	spam/ham	2.837890625
+"sd-----
+"	SA	ham	spam/ham	4.445068359375
+"sdsdhvhbsd----
+"	SA	ham	spam/ham	2.658935546875
+"sds---sd
+"	SA	ham	spam/ham	3.087158203125
+"howzit
+"	SA	ham	ham	5.102783203125
+"Building on previous work, we investigate the use of machine
+"	SA	ham	ham	1.4580078125
+"learning models for side-channel disassembly of instructions running on an ARMCortex M0 processor, which is a popular choice for IoT due to its ultralow gate
+"	SA	ham	ham	1.2587890625
+"count. Its side-channel leakage has been extensively studied in the context of
+"	SA	ham	ham	0.8291015625
+"leakage simulators. Unlike side-channel disassemblers which extract the assembly instruction from a power trace, leakage simulators aim to construct the power
+"	SA	ham	ham	0.863525390625
+"trace for a set of assembly instruction
+"	SA	ham	ham	3.54638671875
+"Hou my vas
+"	SA	ham	ham	2.938232421875
+"I see, I would expect some tutorials on this later on.
+"	SA	ham	ham	3.240478515625
+"Gloucester beat Bath 64-0
+"	SA	ham	ham	3.302490234375
+"Ok lar... Joking wif u oni...
+"	SA	ham	ham	3.20751953125
+"I've been searching for the right words to thank you for this breather. I promise i wont take your h...
+"	SA	ham	ham	1.2392578125
+"Fine if that��s the way u feel. That��s the way its gota b
+"	SA	ham	ham	1.322021484375
+"Is that seriously how you spell his name?
+"	SA	ham	ham	1.22802734375
+"Ffffffffff. Alright no way I can meet up with you sooner?
+"	SA	ham	ham	3.327880859375
+"I don't know what to write :(
+"	SA	ham	ham	3.45654296875
+"Lol your always so convincing.
+"	SA	ham	ham	3.0126953125
+"Ahhh. Work. I vaguely remember that! What does it feel like? Lol
+"	SA	ham	ham	3.6669921875
+"Oops, I'll let you know when my roommate's done
+"	SA	ham	ham	3.52294921875
+"Your latest phone bill is available
+"	SA	ham	ham	3.19873046875
+"Fair enough, anything going on?
+"	SA	ham	ham	3.233642578125
+"Something like 0x100?
+"	SA	ham	ham	3.50146484375
+"Meisies & Partytjies
+"	SA	ham	ham	2.9833984375
+"What you thinked about me. First time you saw me in class.
+"	SA	ham	ham	2.14111328125
+"K fyi x has a ride early tomorrow morning but he's crashing at our place tonight
+"	SA	ham	ham	1.20849609375
+"Tell where you reached
+"	SA	ham	ham	3.22998046875
+"U can call me now...
+"	SA	ham	ham	3.017578125
+"Are you free for wgv?
+"	SA	ham	ham	2.854736328125
+"Waar Paarl?
+"	SA	ham	ham	2.718017578125
+"K. Did you call me just now ah?
+"	SA	ham	ham	3.354736328125
+"I call you later, don't have network. If urgnt, sms me.
+"	SA	ham	ham	1.26171875
+"Does this count as spam?
+"	SA	ham	ham	3.099853515625
+"i see. When we finish we have loads of loans to pay
+"	SA	ham	ham	3.27197265625
+"Okay name ur price as long as its legal! Wen can I pick them up? Y u ave x ams xx
+"	SA	ham	ham	1.3125
+"Thanks a lot for your wishes on my birthday. Thanks you for making my birthday truly memorable.
+"	SA	ham	ham	3.52294921875
+"Going for dinner.msg you after.
+"	SA	ham	ham	3.47802734375
+"I missed my flight
+"	SA	ham	ham	3.328125
+":D sounds lekker to me
+"	SA	ham	ham	2.96875
+"Goodo! Yes we must speak friday - egg-potato ratio for tortilla needed!
+"	SA	ham	ham	2.849853515625
+"Are you there in room.
+"	SA	ham	ham	1.14404296875
+"Do you drink wine?
+"	SA	ham	ham	3.124267578125
+"I'm home.
+"	SA	ham	ham	1.2333984375
+"In bed already
+"	SA	ham	ham	3.337646484375
+"Ja not so bad boet
+"	SA	ham	ham	3.2373046875
+"I only haf msn. It's yijue@hotmail.com
+"	SA	ham	ham	3.169677734375
+"No no. I will check all rooms befor activities
+"	SA	ham	ham	1.321044921875
+"Sir, Waiting for your mail.
+"	SA	ham	ham	1.152099609375
+"Shall I drive or will you
+"	SA	ham	ham	3.325439453125
+"Watching that film you told me to
+"	SA	ham	ham	3.5185546875
+"NO idea the weather is terrible
+"	SA	ham	ham	3.478759765625
+"Whats the staff name who is taking class for us?
+"	SA	ham	ham	1.299560546875
+"K..i deleted my contact that why?
+"	SA	ham	ham	3.271484375
+"The wine is flowing and i'm i have nevering..
+"	SA	ham	ham	3.23974609375
+"Ok... Ur typical reply...
+"	SA	ham	ham	3.0048828125
+"Great escape. I fancy the bridge but needs her lager. See you tomo
+"	SA	ham	ham	3.368408203125
+"croquet this arvo?
+"	SA	ham	ham	3.117919921875
+"Are you still bored?
+"	SA	ham	ham	3.022705078125
+"Lol no. U can trust me.
+"	SA	ham	ham	3.481201171875
+"He will, you guys close?
+"	SA	ham	ham	3.00146484375
+"Going on nothing great.bye
+"	SA	ham	ham	3.20263671875
+"What time does it start?
+"	SA	ham	ham	3.40478515625
+"All slow here
+"	SA	ham	ham	3.23046875
+"I hate my job
+"	SA	ham	ham	3.16455078125
+"You should go to sleep
+"	SA	ham	ham	3.413818359375
+"I need a new phone
+"	SA	ham	ham	3.1650390625
+"I miss transvaal
+"	SA	ham	ham	3.09033203125
+"Darts tonight?
+"	SA	ham	ham	3.091064453125
+"Use the code Q{x84^KSKwFb*&N-
+"	SA	ham	ham	2.8740234375
+"The password is yMg+E+^paV$FQqs3x}mhdfEeqTK}[&g=QNhO)tG(
+"	SA	ham	ham	2.94189453125
+"Can you send me your bank details so I cans end you them oney
+"	SA	ham	ham	3.624755859375
+"xmr?
+"	SA	ham	ham	2.963134765625
+"I think it's all sorted
+"	SA	ham	ham	3.087890625
+"How did the interview go?
+"	SA	ham	ham	3.396240234375
+"I can't stand that guy
+"	SA	ham	ham	3.47314453125
+"goo
+"	SA	ham	ham	2.97216796875
+"go
+"	SA	ham	ham	2.873046875
+"gi
+"	SA	ham	ham	2.796875
+"*go
+"	SA	ham	ham	2.84423828125
+"go*
+"	SA	ham	ham	2.9970703125
+"go even
+"	SA	ham	ham	3.328369140625
+"how
+"	SA	ham	ham	3.03955078125
+"what
+"	SA	ham	ham	2.7705078125
+"why
+"	SA	ham	ham	2.76318359375
+"where
+"	SA	ham	ham	3.00927734375
+"who
+"	SA	ham	ham	2.829345703125
+"???
+"	SA	ham	ham	5.179443359375
+"Have you been paid?
+"	SA	ham	ham	3.4677734375
+"Have you been paid
+"	SA	ham	ham	3.4267578125
+"Hav u been paid
+"	SA	ham	ham	3.031005859375
+"hav u bin paid
+"	SA	ham	ham	3.0703125
+"Have you been payed
+"	SA	ham	ham	3.14111328125
+"Ring sigs are cool
+"	SA	ham	ham	1.130615234375
+"Text me your address
+"	SA	ham	ham	3.170654296875
+"$
+"	SA	ham	ham	2.78466796875
+"@whatever
+"	SA	ham	ham	0.96044921875
+"#whatever
+"	SA	ham	ham	3.119140625
+"We're talking real money here
+"	SA	ham	ham	3.27978515625
+"Yeah they sucked, but what am I supposed to do?
+"	SA	ham	ham	3.6162109375
+"-100
+"	SA	ham	ham	3.007568359375
+"5*5
+"	SA	ham	ham	3.099365234375
+"(I guess)
+"	SA	ham	ham	3.174072265625
+"What's your pk?
+"	SA	ham	ham	3.1142578125
+"Can you send me
+"	SA	ham	ham	3.399658203125
+"#[async_trait::async_trait]
+"	SA	ham	ham	2.9873046875
+"let opts = options::Options::from_args();
+"	SA	ham	ham	3.078369140625
+"y = 2x + 4
+"	SA	ham	ham	2.823486328125
+"y=2x+4
+"	SA	ham	ham	2.66748046875
+"Where did you see that?
+"	SA	ham	ham	3.36962890625
+"I'm completely lost
+"	SA	ham	ham	3.213134765625
+"URGENT: UKGOV has issued a payment of 458 GBP to all residents as part of its promise to battle COVID 19. TAP here https://uk-covid-19.webdirect.org/ to apply
+"	SA	ham	spam	5.14599609375
+"NHS: We have identified that your are eligible to apply for your vaccine. For more information and to apply, follow here : uk-application-form.com
+"	SA	spam	spam	4.01708984375
+"qwertyuiop
+"	SA	ham	spam	2.9658203125
+"4 color printing special request additional information now ! click here
+"	SA	ham	spam	3.199951171875
+"save your money buy getting this thing here you have not tried cialls yet ?
+"	SA	ham	spam	1.35546875
+"undeliverable : home based business for grownups
+"	SA	ham	spam	1.025390625
+"save your money buy getting this thing here you have not tried cialls yet ?
+"	SA	ham	spam	3.666015625
+"any med for your girl to be happy ! your girl is unsatisfied with your potency ?
+"	SA	ham	spam	3.747802734375
+"jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+"	SA	ham	spam	2.974609375
+"the stock trading gunslinger  fanny is merrill but muzo not colza attainder and penultimate like esmark perspicuous ramble is segovia not group try slung kansas tanzania yes chameleon or continuant clothesman no  libretto is chesapeake but tight not waterway herald and hawthorn like chisel morristown superior is deoxyribonucleic not clockwork try hall incredible mcdougall yes hepburn or einsteinian earmark no  sapling is boar but duane not plain palfrey and inflexible like huzzah pepperoni bedtime is nameable not attire try edt chronography optima yes pirogue or diffusion albeit no
+"	SA	ham	spam	4.03564453125
+"las vegas high rise boom  las vegas is fast becoming a major metropolitan city ! 60 +  new high rise towers are expected to be built on and around the las vegas strip  within the next 3 - 4 years , that ' s 30 , 000 + condominiums !  this boom has just begun ! buy first . . . early phase ,  pre - construction pricing is now available on las vegas high rises including  trump , cosmopolitan , mgm , turnberry , icon , sky , among others .  join the interest list :  http : / / www . verticallv . com  message has been sent to you by realty one highrise . learn more at www . verticallv . comif you  wish to be excluded from future mailings , please reply with the word remove in  the subject line 
+"	SA	spam	spam	4.29931640625
+"fpa notice : ebay misrepresentation of identity - user suspension - section 9 -  dear ebay member ,  in an effort to protect your ebay  account security , we have suspended your account until such time that it can  be safely restored to you . we have taken this action because your account  may have been compromised . although we cannot disclose our investigative  procedures that led to this conclusion , please know that we took this action  in order to maintain the safety of your account . for instructions on  getting your account reinstated , please click the button bellow :  thank you for your patience and  cooperation . regards ,  safeharbor departmentebay  inc .
+"	SA	ham	spam	1.627685546875
+"only our software is guaranteed 100 % legal .  name - brand software at low , low , low , low prices  everything comes to him who hustles while he waits .  many would be cowards if they had courage enough
+"	SA	ham	spam	3.85595703125
+"guzzle like a fountain  spur m rocks , our customer speaks :  """" my girlfriend and me have been really enjoying making  our own homemade erotic films . we get off on pretending  to be like porn stars even though it will only ever be  the two of us that see them . the one thing that was really  missing from our movies was the money shot and to be frank  i was lucky if my money shot was worth a dollar
+"	SA	ham	spam	3.723388671875
+"get the best price on your next car !  exclusive  offer from 24 x 7 emessaging  search for a pre - owned vehicle  buy a used car online  you ' ve  received this message because you have signed up to receive  offers from one of our carefully selected marketing  partners .  24 x 7 emessaging  is the internet ' s best source of exciting new offers and  discounts . if you no longer wish to receive these offers ,  please follow the unsubscribe instructions at the bottom .  to  unsubscribe from our mailing list , please  click  here
+"	SA	spam	spam	4.38916015625
+"claim your free home depot gift card - a $ 1000 value .  claim your home depot gift card - a $ 1000 value . were sure you can find a use for this gift card in your area . ( ) .  by exclusiverewards  qprkelmv
+"	SA	spam	spam	3.916015625
+"quelqu ' un t ' aime en secret  quelqu ' un  t ' aime en secret  et nous a charg? de te pr?venir ,  devine  qui a flash? sur toi  en appelant le 08 99 701 123
+"	SA	ham	spam	3.5322265625
+"join focus groups to earn money  a la carte research recruits for focus groups across the country . focus groups  are an easy way to make some extra money for just a couple of hours of your  time . each group is only for the purpose of learning your opinions . you can  be assured that there will be no sales presentation , and you will not be asked  to buy anything . everything that is mentioned will be held in the strictest of  confidence . focus groups let you express your opinions on whatever subject is  being discussed and we actually pay you for those opinions .  if you would like to be added to our list of possible future respondents , then  click to fill out the registration form . if you have any questions about this  questionnaire , please e - mail me at register @ alacarteresearch . com  sincerely ,  john mooney
+"	SA	ham	spam	4.450927734375
+"the credit law is on your side jm ! get perfect credit now ! 
+"	SA	ham	spam	3.712646484375
+"are you ready to get it ?  hello !  viagra is the # 1 med to struggle with mens ' erectile dysfunction .  like one jokes sais , it is strong enough for a man , but made for a woman ; - )  orderinq viagra oniine is a very convinient , fast and secure way !  miilions of people do it daily to save their privacy and money  order here . . .
+"	SA	ham	spam	4.13134765625
+"save your money buy getting this thing here  you have not tried cialls yet ?  than you cannot even imagine what it is like to be a real man in bed !  the thing is that a great errrectlon is provided for you exactly when you want .  ciaiis has a iot of advantages over viaqra  - the effect iasts 36 hours !  - you are ready to start within just 10 minutes !  - you can mix it with alcohoi ! we ship to any country !
+"	SA	ham	spam	4.405517578125
+"get low cost software cds or download !
+"	SA	ham	spam	3.61962890625
+"best prescription generic meds 4 less .  save up to 90 % on retail prices !
+"	SA	ham	spam	3.33984375
+"help  television in 1919 by seat to my knoweledge . chrono cross in 1969
+"	SA	ham	spam	3.217529296875
+"you best friends and family deserve the best internet photo album !  software distribution .  a horse ! a horse ! my kingdom for a horse !
+"	SA	ham	spam	3.76806640625
+"online live striptease for you  see me naked click here
+"	SA	ham	spam	3.7626953125
+"cool page  .informati.as.ro
+"	SA	ham	spam	3.272705078125
+"blast your ad over 200 million leads
+"	SA	ham	spam	3.29150390625
+"I would like to inform you about the *Aquaculture UK* 2022 Attendees list
+"	SA	ham	spam	1.26220703125
+"I hope that I found you as the right person to help me, as I'm in a very difficult situation after the death of my parents. And as such I am also making contact with you for your kind help and assistance.
+"	SA	ham	spam	3.899658203125
+"Your password i know p4s5w0rd
+"	SA	ham	spam	3.32421875
+"Please check the link below and confirm your payment (1.99) to receive your package
+"	SA	ham	spam	3.350341796875
+"Gday man) How are do u? I'd be lucky know you) I am single, no have children, I want for glorious partnercompanion) frank woman is writing to you! I'm searching only serious relationship. So where are you from exactly?
+"	SA	ham	spam	1.289306640625
+"I am hoping that I did not tire you because of this message, & I look ahead to your response.
+"	SA	ham	spam	3.67333984375
+"6I3will2be1direct.5You5watch5adult5content6often6and7I8caught3
+"	SA	ham	spam	2.836181640625
+"2Don't2show8this1to3anyone,2this8is4our3little7secret!2
+"	SA	ham	spam	0.99169921875
+"I don't want to ruin your day, but I have a few pictures of your employess, I don't think they are doing a good job 
+"	SA	ham	spam	2.23828125
+"Your time to realign with society has finished, and now is fine to start your mission. A parcel is coming for you. Click here to see details.
+"	SA	ham	spam	1.2685546875
+"Sex hot as gell, iron potency
+"	SA	ham	spam	3.21630859375
+"I found yr images on instagram you are handsom 8-D
+"	SA	ham	spam	3.421142578125
+"You qualify for a promotional gift. See Details
+"	SA	ham	spam	3.366943359375
+"How king of you, dear Admiral, I chortled.
+"	SA	ham	spam	3.123779296875
+"Christmas Gifts Outlet Up To 89% OFF
+"	SA	ham	spam	3.43310546875

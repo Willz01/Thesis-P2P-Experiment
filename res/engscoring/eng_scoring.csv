@@ -203,3 +203,743 @@ message	method	score	actual	runtime(ns)
 "	LP	[en:0.9999962748786931]	ham	12.318115234375
 "Hi, can i please get a  &lt;#&gt;  dollar loan from you. I.ll pay you back by mid february. Pls.
 "	GL	en	ham	10.90087890625
+"f
+"	LP	[da:0.8571383688091445, en:0.14286163112848188]	spam/ham	1425.546875
+"f
+"	GL	da	spam/ham	125.12890625
+"f
+"	LP	[da:0.8571383688091445, en:0.14286163112848188]	spam/ham	132.14697265625
+"f
+"	GL	da	spam/ham	198.3330078125
+"£££
+"	LP	[cy:0.9999938899268921]	spam/ham	2.711181640625
+"£££
+"	GL	cy	spam/ham	2.286865234375
+"ssss
+"	LP	[fi:0.5714260140225865, en:0.4285708357159308]	spam/ham	842.558837890625
+"ssss
+"	GL	fi	spam/ham	18.141845703125
+"ssssss
+"	LP	[fi:0.9999949343575306]	spam/ham	20.22119140625
+"ssssss
+"	GL	fi	spam/ham	18.989990234375
+"sssssss
+"	LP	[fi:0.999995434635818]	spam/ham	11.22314453125
+"sssssss
+"	GL	fi	spam/ham	10.132080078125
+"ssss
+"	LP	[fi:0.5714260140225865, en:0.4285708357159308]	spam/ham	23.884033203125
+"ssss
+"	GL	fi	spam/ham	27.988037109375
+"xxxxx
+"	LP	[so:0.999999923902355]	spam/ham	906.123046875
+"xxxxx
+"	GL	so	spam/ham	2.556884765625
+"sssss
+"	LP	[fi:0.8571390836160767, en:0.14286047557415021]	spam/ham	18.1669921875
+"sssss
+"	GL	fi	spam/ham	26.611083984375
+"ssss
+"	LP	[fi:0.5714260140225865, en:0.4285708357159308]	spam/ham	19.841064453125
+"ssss
+"	GL	fi	spam/ham	24.784912109375
+"dfdf
+"	LP	[cy:0.9999955907193221]	spam/ham	589.676025390625
+"dfdf
+"	GL	cy	spam/ham	2.659912109375
+"dfdfdfdf
+"	LP	[cy:0.9999960543136839]	spam/ham	3.407958984375
+"dfdfdfdf
+"	GL	cy	spam/ham	4.48095703125
+"dfdfdsds
+"	LP	[da:0.999995471397914]	spam/ham	20.18603515625
+"dfdfdsds
+"	GL	da	spam/ham	16.996826171875
+"dfdfdf
+"	LP	[cy:0.9999948048529443]	spam/ham	2.9931640625
+"dfdfdf
+"	GL	cy	spam/ham	4.6650390625
+"efefef-
+"	LP	[cy:0.9999968737061097]	spam/ham	699.632080078125
+"efefef-
+"	GL	cy	spam/ham	3.06689453125
+"--efef-
+"	LP	[cy:0.9999982611213274]	spam/ham	5.205078125
+"--efef-
+"	GL	cy	spam/ham	3.2099609375
+"efef---
+"	LP	[cy:0.9999982611213274]	spam/ham	5.696044921875
+"efef---
+"	GL	cy	spam/ham	4.576904296875
+"efefef-
+"	LP	[cy:0.9999968737061097]	spam/ham	2.779052734375
+"efefef-
+"	GL	cy	spam/ham	2.451904296875
+"sdsdsd
+"	LP	[sv:0.9999931466381466]	spam/ham	600.51904296875
+"sdsdsd
+"	GL	sv	spam/ham	7.908935546875
+"sdsdsss
+"	LP	[sv:0.9999930190829329]	spam/ham	11.93896484375
+"sdsdsss
+"	GL	sv	spam/ham	10.48291015625
+"dsdsdsd
+"	LP	[sv:0.9999930637162849]	spam/ham	44.309814453125
+"dsdsdsd
+"	GL	sv	spam/ham	34.801025390625
+"----
+"	LP	error	spam/ham	0.0
+"dfdf
+"	LP	[cy:0.9999955907193221]	spam/ham	654.903076171875
+"dfdf
+"	GL	cy	spam/ham	2.60009765625
+"ddfdf
+"	LP	[cy:0.9999979314894776]	spam/ham	2.844970703125
+"ddfdf
+"	GL	cy	spam/ham	3.44287109375
+"--
+"	LP	error	spam/ham	0.0
+"--
+"	GL	error	spam/ham	0.0
+"------
+"	LP	error	spam/ham	0.0
+"------
+"	GL	error	spam/ham	0.0
+"-dddd
+"	LP	[cy:0.9999968474351199]	spam/ham	1.282958984375
+"-dddd
+"	GL	cy	spam/ham	1.4990234375
+"asdsdsd
+"	LP	[af:0.9999963123873573]	spam/ham	11.1240234375
+"asdsdsd
+"	GL	af	spam/ham	9.3720703125
+"sdsd---
+"	LP	[sv:0.9999939036124846]	spam/ham	11.18310546875
+"sdsd---
+"	GL	sv	spam/ham	10.205078125
+"sdsdsdsd-
+"	LP	[sv:0.99999375501774]	spam/ham	13.14501953125
+"sdsdsdsd-
+"	GL	sv	spam/ham	10.9619140625
+"sdsdsds---
+"	LP	[sv:0.999992786805254]	spam/ham	16.218017578125
+"sdsdsds---
+"	GL	sv	spam/ham	15.7470703125
+"sdsdsdjsndsk-
+"	LP	[sv:0.6094404231566697, da:0.3905595768433303]	spam/ham	83.431884765625
+"sdsdsdjsndsk-
+"	GL	sv	spam/ham	47.22802734375
+"sd-----
+"	LP	[sv:0.9999930253228627]	spam/ham	13.341064453125
+"sd-----
+"	GL	sv	spam/ham	12.40283203125
+"sdsdhvhbsd----
+"	LP	[da:0.9999950331261873]	spam/ham	21.587890625
+"sdsdhvhbsd----
+"	GL	da	spam/ham	14.8681640625
+"sds---sd
+"	LP	[sv:0.9999940015551405]	spam/ham	10.578125
+"sds---sd
+"	GL	sv	spam/ham	8.739013671875
+"howzit
+"	LP	[nl:0.999996724308727]	ham	183.955810546875
+"howzit
+"	GL	nl	ham	4.1083984375
+"Building on previous work, we investigate the use of machine
+"	LP	[en:0.9999969442767371]	ham	2.847900390625
+"Building on previous work, we investigate the use of machine
+"	GL	en	ham	2.29248046875
+"learning models for side-channel disassembly of instructions running on an ARMCortex M0 processor, which is a popular choice for IoT due to its ultralow gate
+"	LP	[en:0.9999947203080579]	ham	2.868408203125
+"learning models for side-channel disassembly of instructions running on an ARMCortex M0 processor, which is a popular choice for IoT due to its ultralow gate
+"	GL	en	ham	2.25732421875
+"count. Its side-channel leakage has been extensively studied in the context of
+"	LP	[en:0.9999957212756019]	ham	1.710693359375
+"count. Its side-channel leakage has been extensively studied in the context of
+"	GL	en	ham	1.651611328125
+"leakage simulators. Unlike side-channel disassemblers which extract the assembly instruction from a power trace, leakage simulators aim to construct the power
+"	LP	[en:0.999998797756367]	ham	1.864501953125
+"leakage simulators. Unlike side-channel disassemblers which extract the assembly instruction from a power trace, leakage simulators aim to construct the power
+"	GL	en	ham	1.722412109375
+"trace for a set of assembly instruction
+"	LP	[en:0.999995823241453]	ham	2.6640625
+"trace for a set of assembly instruction
+"	GL	en	ham	1.465087890625
+"Hou my vas
+"	LP	[sk:0.5714243233955111, af:0.28571295862554724, fi:0.14285723226664554]	ham	8.0927734375
+"Hou my vas
+"	GL	sk	ham	6.859130859375
+"I see, I would expect some tutorials on this later on.
+"	LP	[en:0.9999959659299964]	ham	2.662841796875
+"I see, I would expect some tutorials on this later on.
+"	GL	en	ham	1.93798828125
+"Gloucester beat Bath 64-0
+"	LP	[en:0.9999945851627632]	ham	7.508544921875
+"Gloucester beat Bath 64-0
+"	GL	en	ham	5.8798828125
+"Ok lar... Joking wif u oni...
+"	LP	[id:0.7142824314789716, af:0.2857141690807148]	ham	5.609130859375
+"Ok lar... Joking wif u oni...
+"	GL	id	ham	5.30322265625
+"I've been searching for the right words to thank you for this breather. I promise i wont take your h...
+"	LP	[en:0.9999967658999459]	ham	2.02001953125
+"I've been searching for the right words to thank you for this breather. I promise i wont take your h...
+"	GL	en	ham	1.77490234375
+"Fine if that��s the way u feel. That��s the way its gota b
+"	LP	[en:0.999997276717406]	ham	1.398193359375
+"Fine if that��s the way u feel. That��s the way its gota b
+"	GL	en	ham	1.23046875
+"Is that seriously how you spell his name?
+"	LP	[en:0.9999977589956801]	ham	1.558837890625
+"Is that seriously how you spell his name?
+"	GL	en	ham	1.343505859375
+"Ffffffffff. Alright no way I can meet up with you sooner?
+"	LP	[en:0.9999981373388696]	ham	3.595703125
+"Ffffffffff. Alright no way I can meet up with you sooner?
+"	GL	en	ham	2.469970703125
+"I don't know what to write :(
+"	LP	[en:0.9999980095474501]	ham	1.897705078125
+"I don't know what to write :(
+"	GL	en	ham	1.116455078125
+"Lol your always so convincing.
+"	LP	[en:0.9999988397162749]	ham	3.88427734375
+"Lol your always so convincing.
+"	GL	en	ham	2.83349609375
+"Ahhh. Work. I vaguely remember that! What does it feel like? Lol
+"	LP	[en:0.999996815001239]	ham	3.253662109375
+"Ahhh. Work. I vaguely remember that! What does it feel like? Lol
+"	GL	en	ham	2.736328125
+"Oops, I'll let you know when my roommate's done
+"	LP	[en:0.999995312665569]	ham	3.415283203125
+"Oops, I'll let you know when my roommate's done
+"	GL	en	ham	2.40673828125
+"Your latest phone bill is available
+"	LP	[fr:0.9999962419461602]	ham	3.169677734375
+"Your latest phone bill is available
+"	GL	fr	ham	2.18115234375
+"Fair enough, anything going on?
+"	LP	[en:0.9999968537963664]	ham	5.178466796875
+"Fair enough, anything going on?
+"	GL	en	ham	3.847900390625
+"Something like 0x100?
+"	LP	[no:0.999995108912753]	ham	7.987548828125
+"Something like 0x100?
+"	GL	no	ham	6.740966796875
+"Meisies & Partytjies
+"	LP	[af:0.857137952792558, lt:0.1428588248029334]	ham	4.56689453125
+"Meisies & Partytjies
+"	GL	af	ham	3.465576171875
+"What you thinked about me. First time you saw me in class.
+"	LP	[en:0.999996339203249]	ham	2.4208984375
+"What you thinked about me. First time you saw me in class.
+"	GL	en	ham	1.996337890625
+"K fyi x has a ride early tomorrow morning but he's crashing at our place tonight
+"	LP	[en:0.9999975164838047]	ham	1.599365234375
+"K fyi x has a ride early tomorrow morning but he's crashing at our place tonight
+"	GL	en	ham	3.027587890625
+"Tell where you reached
+"	LP	[en:0.9999976673247569]	ham	2.1572265625
+"Tell where you reached
+"	GL	en	ham	1.317626953125
+"U can call me now...
+"	LP	[en:0.8571402184185186, it:0.14285947650465056]	ham	4.262451171875
+"U can call me now...
+"	GL	en	ham	3.219482421875
+"Are you free for wgv?
+"	LP	[en:0.9999970594180595]	ham	3.535888671875
+"Are you free for wgv?
+"	GL	en	ham	1.99951171875
+"Waar Paarl?
+"	LP	[so:0.9999953640836752]	ham	5.443359375
+"Waar Paarl?
+"	GL	so	ham	5.14892578125
+"K. Did you call me just now ah?
+"	LP	[en:0.8571390105974053, so:0.14285865751377894]	ham	4.609619140625
+"K. Did you call me just now ah?
+"	GL	en	ham	3.863525390625
+"I call you later, don't have network. If urgnt, sms me.
+"	LP	[en:0.9999949580130448]	ham	7.052490234375
+"I call you later, don't have network. If urgnt, sms me.
+"	GL	en	ham	6.293212890625
+"Does this count as spam?
+"	LP	[en:0.9999962839482861]	ham	2.718017578125
+"Does this count as spam?
+"	GL	en	ham	1.269287109375
+"i see. When we finish we have loads of loans to pay
+"	LP	[en:0.9999964757172706]	ham	3.18310546875
+"i see. When we finish we have loads of loans to pay
+"	GL	en	ham	1.720458984375
+"Okay name ur price as long as its legal! Wen can I pick them up? Y u ave x ams xx
+"	LP	[en:0.9999978192420832]	ham	2.363525390625
+"Okay name ur price as long as its legal! Wen can I pick them up? Y u ave x ams xx
+"	GL	en	ham	2.0263671875
+"Thanks a lot for your wishes on my birthday. Thanks you for making my birthday truly memorable.
+"	LP	[en:0.999997697984573]	ham	4.0751953125
+"Thanks a lot for your wishes on my birthday. Thanks you for making my birthday truly memorable.
+"	GL	en	ham	7.12158203125
+"Going for dinner.msg you after.
+"	LP	[da:0.857139765621976, cy:0.14285575612682605]	ham	6.01953125
+"Going for dinner.msg you after.
+"	GL	da	ham	5.796875
+"I missed my flight
+"	LP	[en:0.9999980312499009]	ham	3.868408203125
+"I missed my flight
+"	GL	en	ham	3.07421875
+":D sounds lekker to me
+"	LP	[no:0.9999951986069107]	ham	5.772705078125
+":D sounds lekker to me
+"	GL	no	ham	4.647216796875
+"Goodo! Yes we must speak friday - egg-potato ratio for tortilla needed!
+"	LP	[en:0.9999969106638097]	ham	4.235107421875
+"Goodo! Yes we must speak friday - egg-potato ratio for tortilla needed!
+"	GL	en	ham	2.889404296875
+"Are you there in room.
+"	LP	[en:0.9999988536483868]	ham	2.201416015625
+"Are you there in room.
+"	GL	en	ham	2.050537109375
+"Do you drink wine?
+"	LP	[af:0.9999945181551632]	ham	5.786376953125
+"Do you drink wine?
+"	GL	af	ham	7.59619140625
+"I'm home.
+"	LP	[sk:0.714284988100055, en:0.2857148514316372]	ham	8.561279296875
+"I'm home.
+"	GL	sk	ham	9.160400390625
+"In bed already
+"	LP	[en:0.9999962000133906]	ham	3.306396484375
+"In bed already
+"	GL	en	ham	1.970947265625
+"Ja not so bad boet
+"	LP	[af:0.7142841704584779, en:0.14285863315858463, so:0.14285699711677002]	ham	7.16845703125
+"Ja not so bad boet
+"	GL	af	ham	6.0654296875
+"I only haf msn. It's yijue@hotmail.com
+"	LP	[en:0.9999961344811618]	ham	2.0849609375
+"I only haf msn. It's yijue@hotmail.com
+"	GL	en	ham	0.949462890625
+"No no. I will check all rooms befor activities
+"	LP	[en:0.9999973713444676]	ham	2.283447265625
+"No no. I will check all rooms befor activities
+"	GL	en	ham	2.233154296875
+"Sir, Waiting for your mail.
+"	LP	[en:0.8571390000585121, cy:0.14285806768709985]	ham	2.96337890625
+"Sir, Waiting for your mail.
+"	GL	en	ham	2.790771484375
+"Shall I drive or will you
+"	LP	[en:0.9999971187519072]	ham	3.392822265625
+"Shall I drive or will you
+"	GL	en	ham	2.11376953125
+"Watching that film you told me to
+"	LP	[en:0.9999982254807511]	ham	1.97314453125
+"Watching that film you told me to
+"	GL	en	ham	1.17919921875
+"NO idea the weather is terrible
+"	LP	[en:0.9999981272599888]	ham	2.064208984375
+"NO idea the weather is terrible
+"	GL	en	ham	0.8740234375
+"Whats the staff name who is taking class for us?
+"	LP	[en:0.9999970835811773]	ham	3.988525390625
+"Whats the staff name who is taking class for us?
+"	GL	en	ham	3.9384765625
+"K..i deleted my contact that why?
+"	LP	[en:0.9999983892726416]	ham	2.943115234375
+"K..i deleted my contact that why?
+"	GL	en	ham	1.37841796875
+"The wine is flowing and i'm i have nevering..
+"	LP	[en:0.9999965483739088]	ham	3.10400390625
+"The wine is flowing and i'm i have nevering..
+"	GL	en	ham	1.664794921875
+"Ok... Ur typical reply...
+"	LP	[en:0.9999944059455477]	ham	2.7138671875
+"Ok... Ur typical reply...
+"	GL	en	ham	1.747802734375
+"Great escape. I fancy the bridge but needs her lager. See you tomo
+"	LP	[en:0.9999962597906769]	ham	6.708740234375
+"Great escape. I fancy the bridge but needs her lager. See you tomo
+"	GL	en	ham	5.717529296875
+"croquet this arvo?
+"	LP	[en:0.7142850309719371, fr:0.2857149665558303]	ham	7.3740234375
+"croquet this arvo?
+"	GL	en	ham	6.10986328125
+"Are you still bored?
+"	LP	[en:0.999995143070012]	ham	5.54931640625
+"Are you still bored?
+"	GL	en	ham	4.83984375
+"Lol no. U can trust me.
+"	LP	[it:0.8577475047640256, en:0.14225032242750404]	ham	15.031982421875
+"Lol no. U can trust me.
+"	GL	it	ham	15.089599609375
+"He will, you guys close?
+"	LP	[en:0.8571407404841217, cy:0.1428563091751637]	ham	4.86181640625
+"He will, you guys close?
+"	GL	en	ham	3.911376953125
+"Going on nothing great.bye
+"	LP	[en:0.9999980530986353]	ham	2.843017578125
+"Going on nothing great.bye
+"	GL	en	ham	2.379638671875
+"What time does it start?
+"	LP	[en:0.5714264135722285, sq:0.4285716927024356]	ham	6.749267578125
+"What time does it start?
+"	GL	en	ham	6.786865234375
+"All slow here
+"	LP	[en:0.9999957666929259]	ham	2.947021484375
+"All slow here
+"	GL	en	ham	1.832763671875
+"I hate my job
+"	LP	[en:0.5714268481888374, fi:0.28571500472979483, sk:0.14285624117809093]	ham	7.64208984375
+"I hate my job
+"	GL	en	ham	6.38916015625
+"You should go to sleep
+"	LP	[en:0.999996740411587]	ham	4.45703125
+"You should go to sleep
+"	GL	en	ham	4.0361328125
+"I need a new phone
+"	LP	[en:0.9999953374498245]	ham	3.68896484375
+"I need a new phone
+"	GL	en	ham	2.23681640625
+"I miss transvaal
+"	LP	[et:0.9999958239604962]	ham	11.12744140625
+"I miss transvaal
+"	GL	et	ham	6.802734375
+"Darts tonight?
+"	LP	[en:0.9999976166210556]	ham	4.990478515625
+"Darts tonight?
+"	GL	en	ham	4.026611328125
+"Use the code Q{x84^KSKwFb*&N-
+"	LP	[en:0.9999970025956613]	ham	2.97607421875
+"Use the code Q{x84^KSKwFb*&N-
+"	GL	en	ham	1.5595703125
+"The password is yMg+E+^paV$FQqs3x}mhdfEeqTK}[&g=QNhO)tG(
+"	LP	[en:0.9999981813851111]	ham	3.1416015625
+"The password is yMg+E+^paV$FQqs3x}mhdfEeqTK}[&g=QNhO)tG(
+"	GL	en	ham	1.836181640625
+"Can you send me your bank details so I cans end you them oney
+"	LP	[en:0.9999950171821159]	ham	4.053955078125
+"Can you send me your bank details so I cans end you them oney
+"	GL	en	ham	2.845947265625
+"xmr?
+"	LP	[so:0.9999973147096413]	ham	2.330078125
+"xmr?
+"	GL	so	ham	1.017822265625
+"I think it's all sorted
+"	LP	[en:0.9999961230483579]	ham	2.639404296875
+"I think it's all sorted
+"	GL	en	ham	1.277099609375
+"How did the interview go?
+"	LP	[en:0.999996693445922]	ham	3.98095703125
+"How did the interview go?
+"	GL	en	ham	3.080810546875
+"I can't stand that guy
+"	LP	[en:0.9999955979194717]	ham	2.0595703125
+"I can't stand that guy
+"	GL	en	ham	1.231201171875
+"goo
+"	LP	[so:0.9999981424463055]	ham	1.90234375
+"goo
+"	GL	so	ham	0.562255859375
+"go
+"	LP	[pl:0.999995441891472]	ham	3.818359375
+"go
+"	GL	pl	ham	2.845947265625
+"gi
+"	LP	[it:0.8571401820674118, tl:0.14285831000552932]	ham	6.14892578125
+"gi
+"	GL	it	ham	8.534423828125
+"*go
+"	LP	[pl:0.999995441891472]	ham	4.0341796875
+"*go
+"	GL	pl	ham	2.793701171875
+"go*
+"	LP	[pl:0.999995441891472]	ham	4.156494140625
+"go*
+"	GL	pl	ham	3.33740234375
+"go even
+"	LP	[nl:0.5714257590182932, sl:0.4285729636044383]	ham	5.830322265625
+"go even
+"	GL	nl	ham	4.999267578125
+"how
+"	LP	[so:0.9999939776561761]	ham	6.4306640625
+"how
+"	GL	so	ham	5.7470703125
+"what
+"	LP	[en:0.9999954512982633]	ham	1.55126953125
+"what
+"	GL	en	ham	0.601318359375
+"why
+"	LP	[en:0.9999987511509584]	ham	2.817138671875
+"why
+"	GL	en	ham	1.50341796875
+"where
+"	LP	[en:0.9999990127477403]	ham	1.64013671875
+"where
+"	GL	en	ham	0.763671875
+"who
+"	LP	[en:0.999997871677154]	ham	2.2373046875
+"who
+"	GL	en	ham	0.760498046875
+"???
+"	LP	error	ham	0.0
+"???
+"	GL	error	ham	0.0
+"Have you been paid?
+"	LP	[nl:0.7142840291411469, cy:0.1428566776437497, tr:0.14285634633274114]	ham	5.892578125
+"Have you been paid?
+"	GL	nl	ham	5.122314453125
+"Have you been paid
+"	LP	[nl:0.7142840291411469, cy:0.1428566776437497, tr:0.14285634633274114]	ham	5.43310546875
+"Have you been paid
+"	GL	nl	ham	5.169677734375
+"Hav u been paid
+"	LP	[nl:0.8571411786699625, et:0.14285712861932023]	ham	5.86474609375
+"Hav u been paid
+"	GL	nl	ham	5.0869140625
+"hav u bin paid
+"	LP	[sv:0.6822448446335622, et:0.14285650026907076, hr:0.1428562440546811]	ham	18.430908203125
+"hav u bin paid
+"	GL	sv	ham	16.45703125
+"Have you been payed
+"	LP	[en:0.8571388576218699, tr:0.14285878390750137]	ham	4.852783203125
+"Have you been payed
+"	GL	en	ham	5.38671875
+"Ring sigs are cool
+"	LP	[en:0.9999965271908132]	ham	2.642333984375
+"Ring sigs are cool
+"	GL	en	ham	2.082763671875
+"Text me your address
+"	LP	[en:0.7142849240774787, fr:0.28571488282352053]	ham	9.84765625
+"Text me your address
+"	GL	en	ham	8.27392578125
+"$
+"	LP	error	ham	0.0
+"$
+"	GL	error	ham	0.0
+"@whatever
+"	LP	[en:0.9999964392338508]	ham	1.3642578125
+"@whatever
+"	GL	en	ham	1.1181640625
+"#whatever
+"	LP	[en:0.9999964392338508]	ham	4.724853515625
+"#whatever
+"	GL	en	ham	4.7548828125
+"We're talking real money here
+"	LP	[en:0.9999976276046354]	ham	3.0986328125
+"We're talking real money here
+"	GL	en	ham	2.434326171875
+"Yeah they sucked, but what am I supposed to do?
+"	LP	[en:0.9999971138597216]	ham	2.4130859375
+"Yeah they sucked, but what am I supposed to do?
+"	GL	en	ham	1.224365234375
+"-100
+"	LP	error	ham	0.0
+"-100
+"	GL	error	ham	0.0
+"5*5
+"	LP	error	ham	0.0
+"5*5
+"	GL	error	ham	0.0
+"(I guess)
+"	LP	[ca:0.8571398420082177, fr:0.14286015617610015]	ham	14.990478515625
+"(I guess)
+"	GL	ca	ham	13.740234375
+"What's your pk?
+"	LP	[en:0.999995818117953]	ham	2.6708984375
+"What's your pk?
+"	GL	en	ham	1.85546875
+"Can you send me
+"	LP	[en:0.8571391648781057, fr:0.14285920391652807]	ham	7.893310546875
+"Can you send me
+"	GL	en	ham	6.59033203125
+"#[async_trait::async_trait]
+"	LP	[cy:0.9999970357493433]	ham	3.514404296875
+"#[async_trait::async_trait]
+"	GL	cy	ham	2.7783203125
+"let opts = options::Options::from_args();
+"	LP	[en:0.9999953885677402]	ham	11.408203125
+"let opts = options::Options::from_args();
+"	GL	en	ham	9.537841796875
+"y = 2x + 4
+"	LP	[so:0.7142855534333095, cy:0.2857136797003558]	ham	2.314453125
+"y = 2x + 4
+"	GL	so	ham	1.4169921875
+"y=2x+4
+"	LP	[so:0.7142855534333095, cy:0.2857136797003558]	ham	2.809326171875
+"y=2x+4
+"	GL	so	ham	1.099609375
+"Where did you see that?
+"	LP	[en:0.9999969337780299]	ham	3.294189453125
+"Where did you see that?
+"	GL	en	ham	2.1171875
+"I'm completely lost
+"	LP	[en:0.9999960276355621]	ham	3.850830078125
+"I'm completely lost
+"	GL	en	ham	2.715576171875
+"URGENT: UKGOV has issued a payment of 458 GBP to all residents as part of its promise to battle COVID 19. TAP here https://uk-covid-19.webdirect.org/ to apply
+"	LP	[en:0.9999970411526065]	spam	202.66943359375
+"URGENT: UKGOV has issued a payment of 458 GBP to all residents as part of its promise to battle COVID 19. TAP here https://uk-covid-19.webdirect.org/ to apply
+"	GL	en	spam	1.500244140625
+"NHS: We have identified that your are eligible to apply for your vaccine. For more information and to apply, follow here : uk-application-form.com
+"	LP	[en:0.9999988172507159]	spam	3.014404296875
+"NHS: We have identified that your are eligible to apply for your vaccine. For more information and to apply, follow here : uk-application-form.com
+"	GL	en	spam	1.917236328125
+"qwertyuiop
+"	LP	[af:0.9999938297481368]	spam	7.76171875
+"qwertyuiop
+"	GL	af	spam	6.582763671875
+"4 color printing special request additional information now ! click here
+"	LP	[en:0.9999977908856476]	spam	3.684814453125
+"4 color printing special request additional information now ! click here
+"	GL	en	spam	2.1044921875
+"save your money buy getting this thing here you have not tried cialls yet ?
+"	LP	[en:0.9999975623936954]	spam	2.357421875
+"save your money buy getting this thing here you have not tried cialls yet ?
+"	GL	en	spam	1.63525390625
+"undeliverable : home based business for grownups
+"	LP	[en:0.9999966528896218]	spam	4.755126953125
+"undeliverable : home based business for grownups
+"	GL	en	spam	6.547607421875
+"save your money buy getting this thing here you have not tried cialls yet ?
+"	LP	[en:0.9999975623936954]	spam	2.481201171875
+"save your money buy getting this thing here you have not tried cialls yet ?
+"	GL	en	spam	1.65576171875
+"any med for your girl to be happy ! your girl is unsatisfied with your potency ?
+"	LP	[en:0.9999975318202812]	spam	2.4912109375
+"any med for your girl to be happy ! your girl is unsatisfied with your potency ?
+"	GL	en	spam	1.6533203125
+"jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+"	LP	[hr:0.9999930758494275]	spam	5.84765625
+"jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+"	GL	hr	spam	2.114990234375
+"the stock trading gunslinger  fanny is merrill but muzo not colza attainder and penultimate like esmark perspicuous ramble is segovia not group try slung kansas tanzania yes chameleon or continuant clothesman no  libretto is chesapeake but tight not waterway herald and hawthorn like chisel morristown superior is deoxyribonucleic not clockwork try hall incredible mcdougall yes hepburn or einsteinian earmark no  sapling is boar but duane not plain palfrey and inflexible like huzzah pepperoni bedtime is nameable not attire try edt chronography optima yes pirogue or diffusion albeit no
+"	LP	[en:0.999996605866527]	spam	3.957763671875
+"the stock trading gunslinger  fanny is merrill but muzo not colza attainder and penultimate like esmark perspicuous ramble is segovia not group try slung kansas tanzania yes chameleon or continuant clothesman no  libretto is chesapeake but tight not waterway herald and hawthorn like chisel morristown superior is deoxyribonucleic not clockwork try hall incredible mcdougall yes hepburn or einsteinian earmark no  sapling is boar but duane not plain palfrey and inflexible like huzzah pepperoni bedtime is nameable not attire try edt chronography optima yes pirogue or diffusion albeit no
+"	GL	en	spam	3.480224609375
+"las vegas high rise boom  las vegas is fast becoming a major metropolitan city ! 60 +  new high rise towers are expected to be built on and around the las vegas strip  within the next 3 - 4 years , that ' s 30 , 000 + condominiums !  this boom has just begun ! buy first . . . early phase ,  pre - construction pricing is now available on las vegas high rises including  trump , cosmopolitan , mgm , turnberry , icon , sky , among others .  join the interest list :  http : / / www . verticallv . com  message has been sent to you by realty one highrise . learn more at www . verticallv . comif you  wish to be excluded from future mailings , please reply with the word remove in  the subject line 
+"	LP	[en:0.9999968884457981]	spam	3.1337890625
+"las vegas high rise boom  las vegas is fast becoming a major metropolitan city ! 60 +  new high rise towers are expected to be built on and around the las vegas strip  within the next 3 - 4 years , that ' s 30 , 000 + condominiums !  this boom has just begun ! buy first . . . early phase ,  pre - construction pricing is now available on las vegas high rises including  trump , cosmopolitan , mgm , turnberry , icon , sky , among others .  join the interest list :  http : / / www . verticallv . com  message has been sent to you by realty one highrise . learn more at www . verticallv . comif you  wish to be excluded from future mailings , please reply with the word remove in  the subject line 
+"	GL	en	spam	5.8349609375
+"fpa notice : ebay misrepresentation of identity - user suspension - section 9 -  dear ebay member ,  in an effort to protect your ebay  account security , we have suspended your account until such time that it can  be safely restored to you . we have taken this action because your account  may have been compromised . although we cannot disclose our investigative  procedures that led to this conclusion , please know that we took this action  in order to maintain the safety of your account . for instructions on  getting your account reinstated , please click the button bellow :  thank you for your patience and  cooperation . regards ,  safeharbor departmentebay  inc .
+"	LP	[en:0.999998609257545]	spam	3.502685546875
+"fpa notice : ebay misrepresentation of identity - user suspension - section 9 -  dear ebay member ,  in an effort to protect your ebay  account security , we have suspended your account until such time that it can  be safely restored to you . we have taken this action because your account  may have been compromised . although we cannot disclose our investigative  procedures that led to this conclusion , please know that we took this action  in order to maintain the safety of your account . for instructions on  getting your account reinstated , please click the button bellow :  thank you for your patience and  cooperation . regards ,  safeharbor departmentebay  inc .
+"	GL	en	spam	2.650146484375
+"only our software is guaranteed 100 % legal .  name - brand software at low , low , low , low prices  everything comes to him who hustles while he waits .  many would be cowards if they had courage enough
+"	LP	[en:0.9999963693891236]	spam	2.18115234375
+"only our software is guaranteed 100 % legal .  name - brand software at low , low , low , low prices  everything comes to him who hustles while he waits .  many would be cowards if they had courage enough
+"	GL	en	spam	1.438720703125
+"guzzle like a fountain  spur m rocks , our customer speaks :  """" my girlfriend and me have been really enjoying making  our own homemade erotic films . we get off on pretending  to be like porn stars even though it will only ever be  the two of us that see them . the one thing that was really  missing from our movies was the money shot and to be frank  i was lucky if my money shot was worth a dollar
+"	LP	[en:0.9999979955960987]	spam	3.12744140625
+"guzzle like a fountain  spur m rocks , our customer speaks :  """" my girlfriend and me have been really enjoying making  our own homemade erotic films . we get off on pretending  to be like porn stars even though it will only ever be  the two of us that see them . the one thing that was really  missing from our movies was the money shot and to be frank  i was lucky if my money shot was worth a dollar
+"	GL	en	spam	2.02734375
+"get the best price on your next car !  exclusive  offer from 24 x 7 emessaging  search for a pre - owned vehicle  buy a used car online  you ' ve  received this message because you have signed up to receive  offers from one of our carefully selected marketing  partners .  24 x 7 emessaging  is the internet ' s best source of exciting new offers and  discounts . if you no longer wish to receive these offers ,  please follow the unsubscribe instructions at the bottom .  to  unsubscribe from our mailing list , please  click  here
+"	LP	[en:0.999997012503362]	spam	2.555908203125
+"get the best price on your next car !  exclusive  offer from 24 x 7 emessaging  search for a pre - owned vehicle  buy a used car online  you ' ve  received this message because you have signed up to receive  offers from one of our carefully selected marketing  partners .  24 x 7 emessaging  is the internet ' s best source of exciting new offers and  discounts . if you no longer wish to receive these offers ,  please follow the unsubscribe instructions at the bottom .  to  unsubscribe from our mailing list , please  click  here
+"	GL	en	spam	2.275634765625
+"claim your free home depot gift card - a $ 1000 value .  claim your home depot gift card - a $ 1000 value . were sure you can find a use for this gift card in your area . ( ) .  by exclusiverewards  qprkelmv
+"	LP	[en:0.9999960165823053]	spam	3.225341796875
+"claim your free home depot gift card - a $ 1000 value .  claim your home depot gift card - a $ 1000 value . were sure you can find a use for this gift card in your area . ( ) .  by exclusiverewards  qprkelmv
+"	GL	en	spam	2.5830078125
+"quelqu ' un t ' aime en secret  quelqu ' un  t ' aime en secret  et nous a charg? de te pr?venir ,  devine  qui a flash? sur toi  en appelant le 08 99 701 123
+"	LP	[fr:0.9999958002894261]	spam	3.98193359375
+"quelqu ' un t ' aime en secret  quelqu ' un  t ' aime en secret  et nous a charg? de te pr?venir ,  devine  qui a flash? sur toi  en appelant le 08 99 701 123
+"	GL	fr	spam	2.951171875
+"join focus groups to earn money  a la carte research recruits for focus groups across the country . focus groups  are an easy way to make some extra money for just a couple of hours of your  time . each group is only for the purpose of learning your opinions . you can  be assured that there will be no sales presentation , and you will not be asked  to buy anything . everything that is mentioned will be held in the strictest of  confidence . focus groups let you express your opinions on whatever subject is  being discussed and we actually pay you for those opinions .  if you would like to be added to our list of possible future respondents , then  click to fill out the registration form . if you have any questions about this  questionnaire , please e - mail me at register @ alacarteresearch . com  sincerely ,  john mooney
+"	LP	[en:0.9999969664403534]	spam	3.130126953125
+"join focus groups to earn money  a la carte research recruits for focus groups across the country . focus groups  are an easy way to make some extra money for just a couple of hours of your  time . each group is only for the purpose of learning your opinions . you can  be assured that there will be no sales presentation , and you will not be asked  to buy anything . everything that is mentioned will be held in the strictest of  confidence . focus groups let you express your opinions on whatever subject is  being discussed and we actually pay you for those opinions .  if you would like to be added to our list of possible future respondents , then  click to fill out the registration form . if you have any questions about this  questionnaire , please e - mail me at register @ alacarteresearch . com  sincerely ,  john mooney
+"	GL	en	spam	2.46240234375
+"the credit law is on your side jm ! get perfect credit now ! 
+"	LP	[en:0.9999956017725786]	spam	3.154541015625
+"the credit law is on your side jm ! get perfect credit now ! 
+"	GL	en	spam	1.644287109375
+"are you ready to get it ?  hello !  viagra is the # 1 med to struggle with mens ' erectile dysfunction .  like one jokes sais , it is strong enough for a man , but made for a woman ; - )  orderinq viagra oniine is a very convinient , fast and secure way !  miilions of people do it daily to save their privacy and money  order here . . .
+"	LP	[en:0.9999967772213276]	spam	2.123779296875
+"are you ready to get it ?  hello !  viagra is the # 1 med to struggle with mens ' erectile dysfunction .  like one jokes sais , it is strong enough for a man , but made for a woman ; - )  orderinq viagra oniine is a very convinient , fast and secure way !  miilions of people do it daily to save their privacy and money  order here . . .
+"	GL	en	spam	1.798583984375
+"save your money buy getting this thing here  you have not tried cialls yet ?  than you cannot even imagine what it is like to be a real man in bed !  the thing is that a great errrectlon is provided for you exactly when you want .  ciaiis has a iot of advantages over viaqra  - the effect iasts 36 hours !  - you are ready to start within just 10 minutes !  - you can mix it with alcohoi ! we ship to any country !
+"	LP	[en:0.9999972279314226]	spam	2.22119140625
+"save your money buy getting this thing here  you have not tried cialls yet ?  than you cannot even imagine what it is like to be a real man in bed !  the thing is that a great errrectlon is provided for you exactly when you want .  ciaiis has a iot of advantages over viaqra  - the effect iasts 36 hours !  - you are ready to start within just 10 minutes !  - you can mix it with alcohoi ! we ship to any country !
+"	GL	en	spam	1.728759765625
+"get low cost software cds or download !
+"	LP	[en:0.999996256695485]	spam	2.516357421875
+"get low cost software cds or download !
+"	GL	en	spam	1.781494140625
+"best prescription generic meds 4 less .  save up to 90 % on retail prices !
+"	LP	[en:0.9999945201845903]	spam	9.14453125
+"best prescription generic meds 4 less .  save up to 90 % on retail prices !
+"	GL	en	spam	7.97607421875
+"help  television in 1919 by seat to my knoweledge . chrono cross in 1969
+"	LP	[en:0.9999958115004441]	spam	3.047119140625
+"help  television in 1919 by seat to my knoweledge . chrono cross in 1969
+"	GL	en	spam	1.628173828125
+"you best friends and family deserve the best internet photo album !  software distribution .  a horse ! a horse ! my kingdom for a horse !
+"	LP	[en:0.9999981734725909]	spam	3.33935546875
+"you best friends and family deserve the best internet photo album !  software distribution .  a horse ! a horse ! my kingdom for a horse !
+"	GL	en	spam	2.4912109375
+"online live striptease for you  see me naked click here
+"	LP	[en:0.9999967387346628]	spam	3.31298828125
+"online live striptease for you  see me naked click here
+"	GL	en	spam	3.028564453125
+"cool page  .informati.as.ro
+"	LP	[it:0.5714286334041134, en:0.4285711628122722]	spam	4.5537109375
+"cool page  .informati.as.ro
+"	GL	it	spam	4.024658203125
+"blast your ad over 200 million leads
+"	LP	[en:0.9999942406177353]	spam	5.682861328125
+"blast your ad over 200 million leads
+"	GL	en	spam	4.3662109375
+"I would like to inform you about the *Aquaculture UK* 2022 Attendees list
+"	LP	[en:0.9999973622848415]	spam	2.86181640625
+"I would like to inform you about the *Aquaculture UK* 2022 Attendees list
+"	GL	en	spam	2.68212890625
+"I hope that I found you as the right person to help me, as I'm in a very difficult situation after the death of my parents. And as such I am also making contact with you for your kind help and assistance.
+"	LP	[en:0.9999972003283593]	spam	2.55810546875
+"I hope that I found you as the right person to help me, as I'm in a very difficult situation after the death of my parents. And as such I am also making contact with you for your kind help and assistance.
+"	GL	en	spam	1.495361328125
+"Your password i know p4s5w0rd
+"	LP	[en:0.7142854603174312, pl:0.28571359853307343]	spam	3.543212890625
+"Your password i know p4s5w0rd
+"	GL	en	spam	2.216552734375
+"Please check the link below and confirm your payment (1.99) to receive your package
+"	LP	[en:0.9999955335324873]	spam	2.2763671875
+"Please check the link below and confirm your payment (1.99) to receive your package
+"	GL	en	spam	1.461181640625
+"Gday man) How are do u? I'd be lucky know you) I am single, no have children, I want for glorious partnercompanion) frank woman is writing to you! I'm searching only serious relationship. So where are you from exactly?
+"	LP	[en:0.9999976273645586]	spam	1.972900390625
+"Gday man) How are do u? I'd be lucky know you) I am single, no have children, I want for glorious partnercompanion) frank woman is writing to you! I'm searching only serious relationship. So where are you from exactly?
+"	GL	en	spam	1.791259765625
+"I am hoping that I did not tire you because of this message, & I look ahead to your response.
+"	LP	[en:0.9999974410086796]	spam	2.509765625
+"I am hoping that I did not tire you because of this message, & I look ahead to your response.
+"	GL	en	spam	1.837646484375
+"6I3will2be1direct.5You5watch5adult5content6often6and7I8caught3
+"	LP	[en:0.9999967164994792]	spam	9.460693359375
+"6I3will2be1direct.5You5watch5adult5content6often6and7I8caught3
+"	GL	en	spam	7.302001953125
+"2Don't2show8this1to3anyone,2this8is4our3little7secret!2
+"	LP	[en:0.9999974652603504]	spam	1.43896484375
+"2Don't2show8this1to3anyone,2this8is4our3little7secret!2
+"	GL	en	spam	1.06103515625
+"I don't want to ruin your day, but I have a few pictures of your employess, I don't think they are doing a good job 
+"	LP	[en:0.9999978627650202]	spam	3.532470703125
+"I don't want to ruin your day, but I have a few pictures of your employess, I don't think they are doing a good job 
+"	GL	en	spam	2.265380859375
+"Your time to realign with society has finished, and now is fine to start your mission. A parcel is coming for you. Click here to see details.
+"	LP	[en:0.9999966562221061]	spam	2.10693359375
+"Your time to realign with society has finished, and now is fine to start your mission. A parcel is coming for you. Click here to see details.
+"	GL	en	spam	1.624267578125
+"Sex hot as gell, iron potency
+"	LP	[en:0.9999953093360635]	spam	3.661865234375
+"Sex hot as gell, iron potency
+"	GL	en	spam	2.23681640625
+"I found yr images on instagram you are handsom 8-D
+"	LP	[en:0.857139352935933, cy:0.14285730356974485]	spam	3.413330078125
+"I found yr images on instagram you are handsom 8-D
+"	GL	en	spam	2.491455078125
+"You qualify for a promotional gift. See Details
+"	LP	[en:0.8571396581894034, ca:0.14285980487284458]	spam	6.02001953125
+"You qualify for a promotional gift. See Details
+"	GL	en	spam	4.93017578125
+"How king of you, dear Admiral, I chortled.
+"	LP	[en:0.999995200237912]	spam	3.00537109375
+"How king of you, dear Admiral, I chortled.
+"	GL	en	spam	1.489990234375
+"Christmas Gifts Outlet Up To 89% OFF
+"	GL	en	spam	6.767333984375
