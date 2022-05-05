@@ -22,7 +22,7 @@ LP_df.to_csv('LP/LP.csv', sep='\t')
 GL_runtimes = GL_df['runtime(ns)']
 GL_mean = GL_runtimes.mean()
 GL_median = GL_runtimes.median()
-GL_SD = GL_runtimes.describe().std()
+GL_SD = GL_runtimes.std()
 # print(GL_runtimes)
 print(f'GL runtimes mean {GL_mean}')
 print(f'GL runtimes median {GL_median}')
@@ -96,6 +96,18 @@ print(runtimes_gl)
 print(LP_sizes)
 print(runtimes_lp)
 
+plt.scatter(runtimes_gl, GL_sizes)
+plt.xlabel('Runtimes(ns)')
+plt.ylabel('Msg length')
+plt.title('GL')
+plt.show()
+
+plt.scatter(runtimes_lp, LP_sizes)
+plt.xlabel('Runtimes(ns)')
+plt.ylabel('Msg length')
+plt.title('LP')
+plt.show()
+
 # scatter
 # GL
 plt.scatter(runtimes_gl, GL_sizes, color='red', label='GL')
@@ -112,3 +124,25 @@ plt.show()
 plt.boxplot(runtimes_lp)
 plt.boxplot(runtimes_gl)
 plt.show()
+
+scores = eng_score_df['score']
+total_size = scores.values.size
+print(total_size)
+print(scores)
+
+
+def get_count(scs, t):
+    c = 0
+    for s in scores:
+        if s == 'en':
+            c = c + 1
+        elif 'en' in s:
+            c = c + 1
+            pass
+        else:  # other langs
+            print(s)
+            pass
+    print(((c / t) * 100))
+
+
+get_count(scores, total_size)

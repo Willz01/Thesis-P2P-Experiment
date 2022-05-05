@@ -7,6 +7,10 @@ print(cos_sim_df)
 # speed comparisons (graph) ?? TEST
 speed = cos_sim_df['runtime(ns)']
 cosine = cos_sim_df['score']
+print(speed)
+print(f'mean {speed.mean()}')
+print(f'median {speed.median()}')
+print(f'sd {speed.std()}')
 plt.figure(figsize=(15, 10))
 plt.plot(cosine, speed, 'ro')  # x: score, y:speed
 plt.ylabel('Speed(ns)')

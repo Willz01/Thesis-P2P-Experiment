@@ -12,24 +12,31 @@ print(cos_DF.head())
 - avg length of messages
 """
 runtimes = cos_DF['runtime(ns)']
-count = len(runtimes.values)
-sum = runtimes.values.sum()
-avg_runtime = sum / count
-print("Semantic analysis AVG runtime: ", avg_runtime)
-print(f'mean {runtimes.describe().mean()}')
-print(f'median {runtimes.describe().median()}')
-print(f'sd {runtimes.describe().std()}')
+print('values')
+print(f'mean {runtimes.mean()}')
+print(f'median {runtimes.median()}')
+print(f'sd {runtimes.std()}')
 
 # success rate | false positive
 score = cos_DF['score'].values
 actual = cos_DF['actual'].values
-c = 0
+
+c_ham = 0
+c_spam = 0
+x = 0
 for i in range(score.size):
-    if score[i] == actual[i]:
-        c = c + 1
+    if score[i] == 'ham':
+        if score[i] == actual[i]:
+            c_ham = c_ham + 1
+        else:
+            x = x + 1
+    elif score[i] == 'spam':
+        if score[i] == actual[i]:
+            c_spam = c_spam + 1
 
-
-print(c)
+print(c_ham)
+print(c_spam)
+print(x)
 print(score)
 print(actual)
 
