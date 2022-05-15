@@ -1,9 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix, accuracy_score
 
 cos_DF = pd.read_csv('sem_anl.csv', sep='\t')
-print(cos_DF)
-print(cos_DF.head())
+# print(cos_DF)
+# print(cos_DF.head())
 
 # speed
 """
@@ -20,7 +21,12 @@ print(f'sd {runtimes.std()}')
 # success rate | false positive
 score = cos_DF['score'].values
 actual = cos_DF['actual'].values
-
+print(score.size)
+print(actual.size)
+accuracy = accuracy_score(actual, score)
+results = confusion_matrix(actual, score)
+print(results)
+print("accuracy: ", accuracy)
 c_ham = 0
 c_spam = 0
 x = 0

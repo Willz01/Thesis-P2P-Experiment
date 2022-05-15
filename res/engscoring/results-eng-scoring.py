@@ -96,13 +96,13 @@ print(runtimes_gl)
 print(LP_sizes)
 print(runtimes_lp)
 
-plt.scatter(runtimes_gl, GL_sizes)
+plt.scatter(runtimes_gl, GL_sizes, color='red')
 plt.xlabel('Runtimes(ns)')
 plt.ylabel('Msg length')
 plt.title('GL')
 plt.show()
 
-plt.scatter(runtimes_lp, LP_sizes)
+plt.scatter(runtimes_lp, LP_sizes, color='blue')
 plt.xlabel('Runtimes(ns)')
 plt.ylabel('Msg length')
 plt.title('LP')
@@ -133,7 +133,7 @@ print(scores)
 
 def get_count(scs, t):
     c = 0
-    for s in scores:
+    for s in scs:
         if s == 'en':
             c = c + 1
         elif 'en' in s:
